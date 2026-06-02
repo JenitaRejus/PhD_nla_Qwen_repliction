@@ -1,0 +1,117 @@
+{
+  "total": 200,
+  "good_count": 194,
+  "mediocre_count": 5,
+  "degenerate_count": 1,
+  "degenerate_breakdown": {
+    "whitespace_collapse": 0,
+    "repetition_collapse": 0,
+    "too_short": 0,
+    "other": 1
+  },
+  "good_examples": [
+    {
+      "source_idx": 866,
+      "generated_text": " Summary: The 2010-11 school year was a great one for the Vikings, as they were able to play a lot of games i. e. 3-4-5, 4-5-6, 5-6-7, 6-7",
+      "mse": 0.037053,
+      "fve": 0.9388,
+      "gen_length": 60,
+      "unique_ratio": 0.583,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1154,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. While some schools had planned to have a 2010-11 school year 100% online, 2010-11 was 50% online. ",
+      "mse": 0.031215,
+      "fve": 0.9485,
+      "gen_length": 60,
+      "unique_ratio": 0.467,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 844,
+      "generated_text": " Summary: The 2010 presidential race between Barack Obama and John McCain has come into focus again this week as the 2012 race between 2012 Republican nominee Ron DeSantis and Democratic nominee Ron DeKalb has come into focus again. The 20",
+      "mse": 0.052536,
+      "fve": 0.9133,
+      "gen_length": 60,
+      "unique_ratio": 0.567,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1446,
+      "generated_text": " Summary: The 2010 MidCampus Survey of Students surveyed 1,000 students from 100 schools. Of the 1,000 stu- 4 2010 MidCampus Survey of Students surveyed 1,000 students",
+      "mse": 0.027389,
+      "fve": 0.9548,
+      "gen_length": 60,
+      "unique_ratio": 0.4,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1916,
+      "generated_text": " Summary: The 2018-19 school year has come to an end. While there have been some good practices and some worrisome issues, the 2017-18 school year has bode 2018-19 school year has come to",
+      "mse": 0.026582,
+      "fve": 0.9561,
+      "gen_length": 60,
+      "unique_ratio": 0.583,
+      "ws_ratio": 0.0
+    }
+  ],
+  "degenerate_examples": [
+    {
+      "source_idx": 249,
+      "generated_text": " \u7684 Summary: 2019\u5e741\u67081\u65e5\uff0c\u7ecf\u56fd\u52a1\u9662\u6279\u51c6\uff0c\u4e2d\u56fd\u94c1\u8def\u603b\u516c\u53f8\u4e0e\u4e2d\u56fd\u94c1\u8def\u603b\u516c\u53f8\u8054\u5408\u7ec4\u5efa\u4e86\u4e2d\u56fd\u94c1\u8def\u603b\u516c\u53f8\u515a\u7ec4\u3002\u4e2d\u56fd\u94c1\u8def\u603b\u516c\u53f8\u515a\u7ec4\u4e0b\u8bbe____\u3002\nA. \u4e2d\u56fd\u94c1\u8def\u603b\u516c\u53f8\u529e\u516c\u5385\nB. \u4e2d\u56fd\u94c1\u8def\u603b\u516c\u53f8\u529e\u516c\u5ba4\nC. \u4e2d\u56fd",
+      "mse": 0.777525,
+      "fve": -0.2837,
+      "gen_length": 60,
+      "unique_ratio": 0.583,
+      "ws_ratio": 0.033
+    }
+  ],
+  "mediocre_examples": [
+    {
+      "source_idx": 653,
+      "generated_text": " super fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun",
+      "mse": 0.287861,
+      "fve": 0.5247,
+      "gen_length": 60,
+      "unique_ratio": 0.033,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 516,
+      "generated_text": "'S'''''''''''''''''''''''''''''','''''''''''''''''''''''''','''''''''''''''''''''','''''''''''''''''''''''','''''''''''''''",
+      "mse": 0.300333,
+      "fve": 0.5041,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 903,
+      "generated_text": " super class.\npublic abstract class A implements B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, AA,",
+      "mse": 0.191582,
+      "fve": 0.6837,
+      "gen_length": 60,
+      "unique_ratio": 0.567,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 307,
+      "generated_text": " \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f",
+      "mse": 0.361984,
+      "fve": 0.4023,
+      "gen_length": 60,
+      "unique_ratio": 0.05,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1304,
+      "generated_text": "\u7684\u7684\u7684\u7684\u7684\u7684/\u7684\u7684// Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1/2.2.2.2.2.2.2/3.3.",
+      "mse": 0.280549,
+      "fve": 0.5368,
+      "gen_length": 60,
+      "unique_ratio": 0.15,
+      "ws_ratio": 0.0
+    }
+  ]
+}

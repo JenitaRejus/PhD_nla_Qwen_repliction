@@ -1,0 +1,1815 @@
+{
+  "global_fve": 0.9064277623218145,
+  "avg_mse": 0.05667431318201124,
+  "global_var": 0.6056744456291199,
+  "num_samples": 200,
+  "fve_stats": {
+    "min": -0.2837,
+    "p25": 0.8942,
+    "median": 0.94195,
+    "p75": 0.949,
+    "max": 0.9654
+  },
+  "examples": [
+    {
+      "source_idx": 866,
+      "generated_text": " Summary: The 2010-11 school year was a great one for the Vikings, as they were able to play a lot of games i. e. 3-4-5, 4-5-6, 5-6-7, 6-7",
+      "mse": 0.037053,
+      "fve": 0.9388,
+      "gen_length": 60,
+      "unique_ratio": 0.583,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1154,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. While some schools had planned to have a 2010-11 school year 100% online, 2010-11 was 50% online. ",
+      "mse": 0.031215,
+      "fve": 0.9485,
+      "gen_length": 60,
+      "unique_ratio": 0.467,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 844,
+      "generated_text": " Summary: The 2010 presidential race between Barack Obama and John McCain has come into focus again this week as the 2012 race between 2012 Republican nominee Ron DeSantis and Democratic nominee Ron DeKalb has come into focus again. The 20",
+      "mse": 0.052536,
+      "fve": 0.9133,
+      "gen_length": 60,
+      "unique_ratio": 0.567,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1446,
+      "generated_text": " Summary: The 2010 MidCampus Survey of Students surveyed 1,000 students from 100 schools. Of the 1,000 stu- 4 2010 MidCampus Survey of Students surveyed 1,000 students",
+      "mse": 0.027389,
+      "fve": 0.9548,
+      "gen_length": 60,
+      "unique_ratio": 0.4,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1916,
+      "generated_text": " Summary: The 2018-19 school year has come to an end. While there have been some good practices and some worrisome issues, the 2017-18 school year has bode 2018-19 school year has come to",
+      "mse": 0.026582,
+      "fve": 0.9561,
+      "gen_length": 60,
+      "unique_ratio": 0.583,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 487,
+      "generated_text": " Summary: The 2010-11 school year was a good one for the Vikings, as they were able to play a much mated 2nd 4th 5th 6th 7th 8th 9th 10th 11th",
+      "mse": 0.044882,
+      "fve": 0.9259,
+      "gen_length": 60,
+      "unique_ratio": 0.583,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 522,
+      "generated_text": " Summary: The 2010-11 school year was a great one for the Vikings, as they were able to play 12 games 11 12 13 14 15 16 17 18 19 2",
+      "mse": 0.032595,
+      "fve": 0.9462,
+      "gen_length": 60,
+      "unique_ratio": 0.533,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 951,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. While there have been some good practices and some worrisome issues, 2010-11 has been a 2010-11 school year 2010-",
+      "mse": 0.029189,
+      "fve": 0.9518,
+      "gen_length": 60,
+      "unique_ratio": 0.5,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 653,
+      "generated_text": " super fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun fun",
+      "mse": 0.287861,
+      "fve": 0.5247,
+      "gen_length": 60,
+      "unique_ratio": 0.033,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 227,
+      "generated_text": " Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "mse": 0.091438,
+      "fve": 0.849,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 336,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an end. The 2010-11 1st 9th 10th 11th",
+      "mse": 0.03209,
+      "fve": 0.947,
+      "gen_length": 60,
+      "unique_ratio": 0.367,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1514,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an end. The 2010-11 7th 8th 9th 10th ",
+      "mse": 0.031655,
+      "fve": 0.9477,
+      "gen_length": 60,
+      "unique_ratio": 0.383,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1951,
+      "generated_text": " Summary: The 2018-19 school year has come to an end. While there have been some good practices and some worrisome issues, the 2017-18 school year has been a good one for many schools. The 2017-",
+      "mse": 0.033166,
+      "fve": 0.9452,
+      "gen_length": 60,
+      "unique_ratio": 0.633,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 549,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an e. 1. 2. 3. 4. 5. 6. 7. 8",
+      "mse": 0.02481,
+      "fve": 0.959,
+      "gen_length": 60,
+      "unique_ratio": 0.433,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1102,
+      "generated_text": " Summary: The 2010 MidCamp is the largest in-house training and development event in the country. As a result of th e 2009 MidCamp, 2010 MidCamp will be a 3-day event. The 2010 MidCamp",
+      "mse": 0.039393,
+      "fve": 0.935,
+      "gen_length": 60,
+      "unique_ratio": 0.533,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1807,
+      "generated_text": " Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "mse": 0.092046,
+      "fve": 0.848,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 61,
+      "generated_text": " Summary: I am a proud American. I am proud that I am an American. I am proud that I am an AmeriC. I am proud  that I am an AmeriC. I am proud  that I am an AmeriC. I am proud  that I am an",
+      "mse": 0.08409,
+      "fve": 0.8612,
+      "gen_length": 60,
+      "unique_ratio": 0.233,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 599,
+      "generated_text": " Summary: The 2010-11 school year was a good one for the Vikings, as they were able to play for a 10-0 loss to t001. 10-0 loss to t001. 10-0 loss to",
+      "mse": 0.047303,
+      "fve": 0.9219,
+      "gen_length": 60,
+      "unique_ratio": 0.45,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 516,
+      "generated_text": "'S'''''''''''''''''''''''''''''','''''''''''''''''''''''''','''''''''''''''''''''','''''''''''''''''''''''','''''''''''''''",
+      "mse": 0.300333,
+      "fve": 0.5041,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1622,
+      "generated_text": " Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "mse": 0.092236,
+      "fve": 0.8477,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1907,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. While the 2009-10 school year was a little bit different due to the fact tht 2010-11 was a 508 day school year,",
+      "mse": 0.031194,
+      "fve": 0.9485,
+      "gen_length": 60,
+      "unique_ratio": 0.533,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 940,
+      "generated_text": " Summary: The 2010 presidential race between Barack Obama and John McCain was the first time in U.S. history that a 24-year-old 4-term president was challengi... Read more \u00bb\nThe 2010 presidential race between Barack Obama and John McCain was the",
+      "mse": 0.051864,
+      "fve": 0.9144,
+      "gen_length": 60,
+      "unique_ratio": 0.65,
+      "ws_ratio": 0.017
+    },
+    {
+      "source_idx": 1874,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an end. The 2010-11 7th 8th 9th 10th ",
+      "mse": 0.031649,
+      "fve": 0.9477,
+      "gen_length": 60,
+      "unique_ratio": 0.383,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 579,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an e. 2010-11 school year Summary: The 2010-11 school year",
+      "mse": 0.02899,
+      "fve": 0.9521,
+      "gen_length": 60,
+      "unique_ratio": 0.333,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1640,
+      "generated_text": " Summary: The 2010 MidCamp is the largest in-house training and development event for the 2010 NFL Play-off Play-off Round 4 Play-off Round 3 Play-off Round 2 Play-off Round 1 Play-off Play-off Play-off Play-off Play-off Play",
+      "mse": 0.051841,
+      "fve": 0.9144,
+      "gen_length": 60,
+      "unique_ratio": 0.417,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 548,
+      "generated_text": " Summary: The 2010 MidCamp was a great success with 200+ participants and 10+ sessions. The 2011 MidCamp will be a little bit scla... Read More \u00bb\nThe 2010 MidCamp was a great success",
+      "mse": 0.021863,
+      "fve": 0.9639,
+      "gen_length": 60,
+      "unique_ratio": 0.517,
+      "ws_ratio": 0.017
+    },
+    {
+      "source_idx": 56,
+      "generated_text": " Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "mse": 0.09109,
+      "fve": 0.8496,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 828,
+      "generated_text": " Summary: I\u2019m a 25 year old female that has been living in the same house for 10 years. I have been livin 20 year old female that has been living in the same house for 10 years. I have been living in the same house for",
+      "mse": 0.061959,
+      "fve": 0.8977,
+      "gen_length": 60,
+      "unique_ratio": 0.467,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 848,
+      "generated_text": " Summary: The 2010 MidCampus Survey of Students surveyed 1,200 students from 100 schools. Of the 1,200 stu- 4 2010 MidCampus Survey of Students surveyed 1,200 students",
+      "mse": 0.026152,
+      "fve": 0.9568,
+      "gen_length": 60,
+      "unique_ratio": 0.4,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 181,
+      "generated_text": " Summary: The 2010-11 school year was the first in which the school district had a negative 2010-11 school year 2010-11 school year 2010-11 school year 2010-",
+      "mse": 0.03695,
+      "fve": 0.939,
+      "gen_length": 60,
+      "unique_ratio": 0.317,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1753,
+      "generated_text": " Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "mse": 0.091647,
+      "fve": 0.8487,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 94,
+      "generated_text": " Summary: The 2010-11 school year was a good one for the Vikings, as they were able to play a much mounthly 10th 4th 5th 6th 7th 8th 9th 10th ",
+      "mse": 0.037841,
+      "fve": 0.9375,
+      "gen_length": 60,
+      "unique_ratio": 0.583,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1381,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an end. 2010-11 10th 11th 12th 13",
+      "mse": 0.030946,
+      "fve": 0.9489,
+      "gen_length": 60,
+      "unique_ratio": 0.35,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1128,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. While the 2009-10 school year was a little bit different due to the fact tht the 2009-10 2010-11 school",
+      "mse": 0.030919,
+      "fve": 0.949,
+      "gen_length": 60,
+      "unique_ratio": 0.467,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 216,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an end. The 2010-11 7th 8th 9th 10th ",
+      "mse": 0.03131,
+      "fve": 0.9483,
+      "gen_length": 60,
+      "unique_ratio": 0.383,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 47,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. While some teachers and parents were looking at the 2009-10 school year and 2010-11 1st 2nd 3rd 4th ",
+      "mse": 0.035952,
+      "fve": 0.9406,
+      "gen_length": 60,
+      "unique_ratio": 0.533,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1131,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. While there have been some good practices and some worrisome issues, the 2010-11 school year has foiled many 100% school improvement 2010",
+      "mse": 0.031316,
+      "fve": 0.9483,
+      "gen_length": 60,
+      "unique_ratio": 0.583,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 127,
+      "generated_text": " Summary: The 2010 MidCamp is the largest in-house training and development event in the world. It\u2019s the 10thann 10thann 2010 MidCamp has been a great success. The 2010 MidCamp is the ",
+      "mse": 0.02631,
+      "fve": 0.9566,
+      "gen_length": 60,
+      "unique_ratio": 0.483,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 13,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. While there have been some good practices and some worrisome issues, 2010-11 has been a good year for 4th and 8th graders in the 1",
+      "mse": 0.03366,
+      "fve": 0.9444,
+      "gen_length": 60,
+      "unique_ratio": 0.633,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1389,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. While there have been some good practices and some worrisome issues, 2010-11 has been a 2010-11 school year 2010-",
+      "mse": 0.029277,
+      "fve": 0.9517,
+      "gen_length": 60,
+      "unique_ratio": 0.5,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 785,
+      "generated_text": " Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "mse": 0.091923,
+      "fve": 0.8482,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 28,
+      "generated_text": " Summary: The 2010 MidCampus Survey is a survey of 200 college students from 10 different schools. The 2010 MidCampus Survei... Read More \u00bbThe 2010 MidCampus Survey is a survey of ",
+      "mse": 0.022266,
+      "fve": 0.9632,
+      "gen_length": 60,
+      "unique_ratio": 0.483,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1681,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an end. I am proud 1. I am proud that the 2010-11 school year has come",
+      "mse": 0.031078,
+      "fve": 0.9487,
+      "gen_length": 60,
+      "unique_ratio": 0.383,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 449,
+      "generated_text": " Summary: The 2010 MidCampus Survey of Students in the School of Nursing (SCN) was a 3-hr. survey takeri 2010 MidCampus Survey of Students in the School of Nursing (SCN) was a 3-hr",
+      "mse": 0.035957,
+      "fve": 0.9406,
+      "gen_length": 60,
+      "unique_ratio": 0.517,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1840,
+      "generated_text": " Summary: The 2010 MidCamp is the largest in-house training and development event in the world. As a result of th e 2009 MidCamp, 2010 MidCamp will be the 3rd 100% online training event 1",
+      "mse": 0.038659,
+      "fve": 0.9362,
+      "gen_length": 60,
+      "unique_ratio": 0.567,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1517,
+      "generated_text": " Summary: The 2010-11 school year was a good one for the Vikings, as they were able to play for a 10-0 loss to a 12-0 home loss to the Giants. 10-0 loss to the Giants was a good",
+      "mse": 0.066329,
+      "fve": 0.8905,
+      "gen_length": 60,
+      "unique_ratio": 0.467,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 435,
+      "generated_text": " Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "mse": 0.092142,
+      "fve": 0.8479,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 259,
+      "generated_text": " Summary: The 2010 MidCamp is the largest in-house training and development event in the country. As a result of th e 2009 MidCamp, 2010 MidCamp will be a 3-day 4-hr. 200+",
+      "mse": 0.046736,
+      "fve": 0.9228,
+      "gen_length": 60,
+      "unique_ratio": 0.6,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 645,
+      "generated_text": " Summary: The 2010 MidCampus Survey of Students surveyed 1,200 students from 100 schools. Of the 1,200 stu- 4 2010 MidCampus Survey of Students surveyed 1,200 students",
+      "mse": 0.026615,
+      "fve": 0.9561,
+      "gen_length": 60,
+      "unique_ratio": 0.4,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1337,
+      "generated_text": " superintervals of $f(x)$ on $[a,b]$ are the same as those on $[a,b]$.\nTo show that the superintervals of $f(x)$ on $[a,b]$ are the same as those on $[a,b]$, we need to show",
+      "mse": 0.122162,
+      "fve": 0.7983,
+      "gen_length": 60,
+      "unique_ratio": 0.45,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 8,
+      "generated_text": " Summary: The 2010-11 school year has been a little different for most kids. For some, it has been a little different for a long time. For some, it has been a little different for a long time. For some, it has been a little different for",
+      "mse": 0.062316,
+      "fve": 0.8971,
+      "gen_length": 60,
+      "unique_ratio": 0.417,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1912,
+      "generated_text": " Summary: The 2010 MidCamp is the largest in-house training and development event for the 2010 NFL Play-off Play-off Play-off Play-off Play-off Play-off Play-off Play-off Play-off Play-off Play-off Play-off Play-off Play-off Play-off Play-off Play",
+      "mse": 0.048051,
+      "fve": 0.9207,
+      "gen_length": 60,
+      "unique_ratio": 0.367,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1040,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an end. The 2010-11 1st 7th 8th 9th 1",
+      "mse": 0.031761,
+      "fve": 0.9476,
+      "gen_length": 60,
+      "unique_ratio": 0.4,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 474,
+      "generated_text": " Summary: The 2010 MidCamp is the largest in-house training and development event in the country. As a result of th e 2009 100% success rate of t he 2009 MidCamp, t he 2010 Mid",
+      "mse": 0.029653,
+      "fve": 0.951,
+      "gen_length": 60,
+      "unique_ratio": 0.55,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1967,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. While the school year can be a great 100,000 words on the 2010-11 school year has come to an end. While the school year can be",
+      "mse": 0.030606,
+      "fve": 0.9495,
+      "gen_length": 60,
+      "unique_ratio": 0.417,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1375,
+      "generated_text": " Summary: The 2010 Mid Term Budget (MTB) of the Government of India (GoI) 2010-11 (Himachal Pradesh, Uttarakhand, Jammu & Kashmir, Jharkhand, Assam, Arunachal",
+      "mse": 0.033264,
+      "fve": 0.9451,
+      "gen_length": 60,
+      "unique_ratio": 0.667,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1024,
+      "generated_text": " Summary: 100% of the votes were for the candidate you are running against.\nYou can now choose to cast your vote for the candidate you are running against by selecting the box next to their name.\nYou can now choose to cast your vote for the candidate you are running against by selecting",
+      "mse": 0.093866,
+      "fve": 0.845,
+      "gen_length": 60,
+      "unique_ratio": 0.517,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1366,
+      "generated_text": " Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "mse": 0.091901,
+      "fve": 0.8483,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1693,
+      "generated_text": " Summary: The 2010-11 school year was a good one for the Vikings, as they were able to play a much mated 2nd round 4th seed game against a 1st round 8th seed. The 2nd round 4th seed",
+      "mse": 0.064259,
+      "fve": 0.8939,
+      "gen_length": 60,
+      "unique_ratio": 0.617,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1211,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. While the 2009-10 school year was a little bit different due to the fact tht 2010-11 was a 508 day school year,",
+      "mse": 0.031397,
+      "fve": 0.9482,
+      "gen_length": 60,
+      "unique_ratio": 0.533,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 374,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. While the 2009-10 school year was a little bit different this year, the 2010-11 school year was 100% 50/",
+      "mse": 0.029325,
+      "fve": 0.9516,
+      "gen_length": 60,
+      "unique_ratio": 0.483,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 706,
+      "generated_text": " Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "mse": 0.091776,
+      "fve": 0.8485,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 870,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an end. The 2010-11 1st 9th 10th 11th",
+      "mse": 0.031295,
+      "fve": 0.9483,
+      "gen_length": 60,
+      "unique_ratio": 0.367,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1837,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an end. The 2010-11 1st 7th 8th 9th 1",
+      "mse": 0.031923,
+      "fve": 0.9473,
+      "gen_length": 60,
+      "unique_ratio": 0.4,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 110,
+      "generated_text": " Summary: The 2010-11 school year was a great one for the Vikings, as they were able to play a lot of games i. e. 3-4-5, 4-5-6, 5-6-7, 6-7",
+      "mse": 0.036751,
+      "fve": 0.9393,
+      "gen_length": 60,
+      "unique_ratio": 0.583,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1575,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an end. The 2010-11 1st 9th 10th 11th",
+      "mse": 0.032106,
+      "fve": 0.947,
+      "gen_length": 60,
+      "unique_ratio": 0.367,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1788,
+      "generated_text": " Summary: The 2018-19 school year has been a busy one for the Eagles, as they\u2019ve been led by 2nd-rounder LeSean McCoy and 3rd-rounder LeSean McCoy Jr. to 2nd- and 3rd-rou",
+      "mse": 0.048218,
+      "fve": 0.9204,
+      "gen_length": 60,
+      "unique_ratio": 0.633,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 405,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. While there have been some good practices and some worrisome issues, the 2010-11 school year has foiled many 100% school improvement 100%",
+      "mse": 0.031515,
+      "fve": 0.948,
+      "gen_length": 60,
+      "unique_ratio": 0.583,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 144,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an end. The 2010-11 1st 9th 10th 11th",
+      "mse": 0.031824,
+      "fve": 0.9475,
+      "gen_length": 60,
+      "unique_ratio": 0.367,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 765,
+      "generated_text": " Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "mse": 0.091633,
+      "fve": 0.8487,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 716,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. While there have been some good practices and some worrisome issues, the 2009-10 1st 2nd 3rd 4th 5th 6th",
+      "mse": 0.034421,
+      "fve": 0.9432,
+      "gen_length": 60,
+      "unique_ratio": 0.65,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1923,
+      "generated_text": " Summary: The 2010 MidCampus Survey of Students in the School of Nursing (SGHS) was a 3-day survey takeri 2010 MidCampus Survey of Students in the School of Nursing (SGHS) was a 3-day survey taker",
+      "mse": 0.030559,
+      "fve": 0.9495,
+      "gen_length": 60,
+      "unique_ratio": 0.483,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1358,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an end. The 2010-11 1st 9th 10th 11th",
+      "mse": 0.031882,
+      "fve": 0.9474,
+      "gen_length": 60,
+      "unique_ratio": 0.367,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 330,
+      "generated_text": " Summary: The 2010 MidCamp is the largest in-house training and development event in the country. As a result of th e 2009 2010 MidCamp, the 2010 MidCamp 2010 MidCamp 20",
+      "mse": 0.030906,
+      "fve": 0.949,
+      "gen_length": 60,
+      "unique_ratio": 0.467,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 410,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an end. The 2010-11 1st 7th 8th 9th 1",
+      "mse": 0.031583,
+      "fve": 0.9479,
+      "gen_length": 60,
+      "unique_ratio": 0.4,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 753,
+      "generated_text": " Summary: The 2010-11 school year has been a little different for most kids. For some, it has been a little 1010-11 school year has been a little different for most kids. For some, it has been a little 10",
+      "mse": 0.032522,
+      "fve": 0.9463,
+      "gen_length": 60,
+      "unique_ratio": 0.383,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 36,
+      "generated_text": " Summary: The 2010-11 school year was a good one for the Vikings, as they were able to play a much mated 2nd half. 2nd half 3rd qtr 2nd qtr 4th qtr 5th qtr",
+      "mse": 0.047195,
+      "fve": 0.9221,
+      "gen_length": 60,
+      "unique_ratio": 0.617,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 748,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an end. The 2010-11 7th 8th 9th 10th ",
+      "mse": 0.031885,
+      "fve": 0.9474,
+      "gen_length": 60,
+      "unique_ratio": 0.383,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 949,
+      "generated_text": " Summary: 1.1.1.1 is not in the list of trusted hosts.\nThe reason is that the 1.1.1.1 host is not trusted by the 1.2.1.1 host.\nThe 1.2.1.1 host is trusted",
+      "mse": 0.066142,
+      "fve": 0.8908,
+      "gen_length": 60,
+      "unique_ratio": 0.333,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1010,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. While the 2009-10 school year was a little bit different throug... [more]\nThe 2010-11 school year has come to an end.",
+      "mse": 0.023887,
+      "fve": 0.9606,
+      "gen_length": 60,
+      "unique_ratio": 0.533,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1020,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an end. The 2010-11 1st 7th 8th 9th 1",
+      "mse": 0.031603,
+      "fve": 0.9478,
+      "gen_length": 60,
+      "unique_ratio": 0.4,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 903,
+      "generated_text": " super class.\npublic abstract class A implements B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, AA,",
+      "mse": 0.191582,
+      "fve": 0.6837,
+      "gen_length": 60,
+      "unique_ratio": 0.567,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 27,
+      "generated_text": " Summary: The 2010 MidCamp is the largest in-house training and development event for the 2010 NFL Play-off Play-off Round 4 Play-off Round 2 Play-off Round 1 Play-off Round 3 Play-off Play-off Play-off Play-off Play-off Play",
+      "mse": 0.053892,
+      "fve": 0.911,
+      "gen_length": 60,
+      "unique_ratio": 0.417,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1313,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an end. The 2010-11 1st 7th 8th 9th 1",
+      "mse": 0.031466,
+      "fve": 0.948,
+      "gen_length": 60,
+      "unique_ratio": 0.4,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1455,
+      "generated_text": " Summary: The 2010-11 school year was a good one for the Vikings, as they were able to play for a 10-0 win over th e 11-0 loss to th e 12-0 loss to th e 13-",
+      "mse": 0.059736,
+      "fve": 0.9014,
+      "gen_length": 60,
+      "unique_ratio": 0.5,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1281,
+      "generated_text": " Summary: The 2010 presidential race between Barack Obama and John McCain was the first time in U.S. presienc e history that a candidate from a whi l e party was challengi ng a candidate from a whi l e party. 1 0 0 ",
+      "mse": 0.074312,
+      "fve": 0.8773,
+      "gen_length": 60,
+      "unique_ratio": 0.617,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1740,
+      "generated_text": " Summary: The 2010-11 school year was a great one for the Eagles. The Eagles played a solid 4th 5th 6th 7th 8th 9th 10th 11th 12th 13th",
+      "mse": 0.050241,
+      "fve": 0.917,
+      "gen_length": 60,
+      "unique_ratio": 0.467,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1200,
+      "generated_text": " Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "mse": 0.092352,
+      "fve": 0.8475,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 566,
+      "generated_text": " Summary: The 2010-11 school year was a good one for the Vikings, as they were able to play for a 10-0 loss to the Giants in the Play-off Round 1. The 2010-11 school year was a good",
+      "mse": 0.052175,
+      "fve": 0.9139,
+      "gen_length": 60,
+      "unique_ratio": 0.517,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 851,
+      "generated_text": ", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0",
+      "mse": 0.171468,
+      "fve": 0.7169,
+      "gen_length": 60,
+      "unique_ratio": 0.05,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 908,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. As you may have seen, the 2009-10 school year was a very good one for the 4th and 8th graders. The 5th graders f",
+      "mse": 0.036057,
+      "fve": 0.9405,
+      "gen_length": 60,
+      "unique_ratio": 0.633,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 436,
+      "generated_text": " Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "mse": 0.09179,
+      "fve": 0.8484,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 605,
+      "generated_text": " Summary: The 2010-11 school year was the first in which the school district had a negative revenue balance. The 2009-10 school year was the 10th in which the 2008-09 school year was the ",
+      "mse": 0.041758,
+      "fve": 0.9311,
+      "gen_length": 60,
+      "unique_ratio": 0.417,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1499,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. While the 2009-10 school year was a little bit different due to the fact tht the 2009-10 1st 2nd 3rd",
+      "mse": 0.029208,
+      "fve": 0.9518,
+      "gen_length": 60,
+      "unique_ratio": 0.533,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 189,
+      "generated_text": " Summary: The 2010 MidCamp was a great success with 100+ runners competing in the 10 mile race. The 2011 MidCamp 10 mile race woul 2010 MidCamp 10 mile race woul",
+      "mse": 0.027649,
+      "fve": 0.9544,
+      "gen_length": 60,
+      "unique_ratio": 0.433,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1489,
+      "generated_text": " Summary: The 2010-11-01 00:00:00.000000 UTC is the start of the 2010-11-01 00:00:00.000",
+      "mse": 0.025181,
+      "fve": 0.9584,
+      "gen_length": 60,
+      "unique_ratio": 0.233,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 558,
+      "generated_text": " Summary: The 2010 presidential race between Barack Obama and John Legend was the first time in U.S. presi 2010 presidential race between Barack Obama and John Legend was the first time in U.S. presi 2010 presidential race between Barack Obama and",
+      "mse": 0.043907,
+      "fve": 0.9275,
+      "gen_length": 60,
+      "unique_ratio": 0.417,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 91,
+      "generated_text": " Summary: The 2010 presidential race between Barack Obama and John McCain has come into focus again this week as the 2012 cauS: The 2010 presidential race between Barack Obama and John McCain has come into focus again this week as the 20",
+      "mse": 0.039526,
+      "fve": 0.9347,
+      "gen_length": 60,
+      "unique_ratio": 0.45,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 967,
+      "generated_text": " Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "mse": 0.092582,
+      "fve": 0.8471,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 136,
+      "generated_text": " Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "mse": 0.091637,
+      "fve": 0.8487,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 784,
+      "generated_text": " Summary: The 2010 MidCamp is the largest in-house training and development event in the country. As a result of th e 2009 9/11 attacks, the 2010 MidCamp is the 2nd largest in-house 10",
+      "mse": 0.033708,
+      "fve": 0.9443,
+      "gen_length": 60,
+      "unique_ratio": 0.517,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1008,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. While there have been some good practices and some worrisome issues, the 2010-11 school year has foiled many 100% school improvement efforts. 10",
+      "mse": 0.032153,
+      "fve": 0.9469,
+      "gen_length": 60,
+      "unique_ratio": 0.6,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1274,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. While the 2009-10 school year was a little bit different due to the fact tht we had a 2009-10 flu season, the 20",
+      "mse": 0.030444,
+      "fve": 0.9497,
+      "gen_length": 60,
+      "unique_ratio": 0.55,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1585,
+      "generated_text": " Summary: The 2018-19 school year has come to an end, and the 2017-18 school year has just began. As we look back on 2017-18, we can be proud of the accomplishments 1. We",
+      "mse": 0.030867,
+      "fve": 0.949,
+      "gen_length": 60,
+      "unique_ratio": 0.583,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1374,
+      "generated_text": " Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "mse": 0.09138,
+      "fve": 0.8491,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1821,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. While the school year can be a great 100% success 100% of the time, 100% of the time 100% of the time, ",
+      "mse": 0.02834,
+      "fve": 0.9532,
+      "gen_length": 60,
+      "unique_ratio": 0.45,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1019,
+      "generated_text": " Summary: The 2010 Mid Term Budget (MTB) of the Government of India (GoI) 2010-11 (Himachal Pradesh, Uttarakhand, Jammu & Kashmir, Jharkhand, Assam, Arunachal",
+      "mse": 0.033346,
+      "fve": 0.9449,
+      "gen_length": 60,
+      "unique_ratio": 0.667,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1295,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. While some schools had planned to have a 2010-11 school year 100% online, 2010-11 was a 50% online year",
+      "mse": 0.034124,
+      "fve": 0.9437,
+      "gen_length": 60,
+      "unique_ratio": 0.467,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1423,
+      "generated_text": " Summary: The 2010 MidCamp was a great success with 101 participants from 12 countries. The 2011 MidCamp will be 102 2012 MidCamp will be 103 2013 MidCamp",
+      "mse": 0.020948,
+      "fve": 0.9654,
+      "gen_length": 60,
+      "unique_ratio": 0.35,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 875,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an end. 2010-11 1. 2010-11 2. ",
+      "mse": 0.029355,
+      "fve": 0.9515,
+      "gen_length": 60,
+      "unique_ratio": 0.317,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 421,
+      "generated_text": " Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "mse": 0.091858,
+      "fve": 0.8483,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1738,
+      "generated_text": " Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "mse": 0.091506,
+      "fve": 0.8489,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 963,
+      "generated_text": " Summary: The 2010 presidential race between Barack Obama and John McCain was the first time in U.S. history that a 24-year-old was nominated 4 times for the 26th 4th President of the 23rd 4th Congress. 2",
+      "mse": 0.065493,
+      "fve": 0.8919,
+      "gen_length": 60,
+      "unique_ratio": 0.65,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1368,
+      "generated_text": " Summary: The 2018-19 school year has come to an end, and the 2017-18 school year has just started. As we all know, the 2017-18 1a 1b 2a 2",
+      "mse": 0.029477,
+      "fve": 0.9513,
+      "gen_length": 60,
+      "unique_ratio": 0.5,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1845,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an end. The 2010-11 10th 11th 12th 1",
+      "mse": 0.030337,
+      "fve": 0.9499,
+      "gen_length": 60,
+      "unique_ratio": 0.333,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1593,
+      "generated_text": " Summary: The 2010 MidCamp is the largest in-house training and development event for the 2010 NFL Play-off Play-off Round 4 Play-off Round 2 Play-off Round 1 Play-off Round 3 Play-off Play-off Play-off Play-off Play-off Play",
+      "mse": 0.054199,
+      "fve": 0.9105,
+      "gen_length": 60,
+      "unique_ratio": 0.417,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1387,
+      "generated_text": " Summary: The 2010-11 school year was a good one for the Vikings, as they were able to play for a 10-4 record. Thi... Read More \u00bbThe 2010-11 school year was a good one for the Vikings,",
+      "mse": 0.038025,
+      "fve": 0.9372,
+      "gen_length": 60,
+      "unique_ratio": 0.55,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 249,
+      "generated_text": " \u7684 Summary: 2019\u5e741\u67081\u65e5\uff0c\u7ecf\u56fd\u52a1\u9662\u6279\u51c6\uff0c\u4e2d\u56fd\u94c1\u8def\u603b\u516c\u53f8\u4e0e\u4e2d\u56fd\u94c1\u8def\u603b\u516c\u53f8\u8054\u5408\u7ec4\u5efa\u4e86\u4e2d\u56fd\u94c1\u8def\u603b\u516c\u53f8\u515a\u7ec4\u3002\u4e2d\u56fd\u94c1\u8def\u603b\u516c\u53f8\u515a\u7ec4\u4e0b\u8bbe____\u3002\nA. \u4e2d\u56fd\u94c1\u8def\u603b\u516c\u53f8\u529e\u516c\u5385\nB. \u4e2d\u56fd\u94c1\u8def\u603b\u516c\u53f8\u529e\u516c\u5ba4\nC. \u4e2d\u56fd",
+      "mse": 0.777525,
+      "fve": -0.2837,
+      "gen_length": 60,
+      "unique_ratio": 0.583,
+      "ws_ratio": 0.033
+    },
+    {
+      "source_idx": 1095,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. While there have been some good practices and some worrisome issues, the 2010-11 7th 8th 9th 10th 11th ",
+      "mse": 0.028449,
+      "fve": 0.953,
+      "gen_length": 60,
+      "unique_ratio": 0.567,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 910,
+      "generated_text": " Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "mse": 0.092279,
+      "fve": 0.8476,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 891,
+      "generated_text": " Summary: The 2010-11 school year was a good one for the Vikings, as they were able to play for a 10-0 loss to a 12-0 loss to thier 2010 state Champion, the 49ers.",
+      "mse": 0.073109,
+      "fve": 0.8793,
+      "gen_length": 60,
+      "unique_ratio": 0.55,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1350,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an end. The 2010-11 1st 7th 8th 9th 1",
+      "mse": 0.031732,
+      "fve": 0.9476,
+      "gen_length": 60,
+      "unique_ratio": 0.4,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1030,
+      "generated_text": " Summary: The 2018-19 school year has been a busy one for the Eagles, as they have been playing for a Play-off spot. The 2nd round rivalry between the 2nd and 3rd round rivalry between thier 2nd",
+      "mse": 0.050852,
+      "fve": 0.916,
+      "gen_length": 60,
+      "unique_ratio": 0.667,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 307,
+      "generated_text": " \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f \u7b9f",
+      "mse": 0.361984,
+      "fve": 0.4023,
+      "gen_length": 60,
+      "unique_ratio": 0.05,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 914,
+      "generated_text": " Summary: The 2010-11 school year was a good one for the Vikings, as they were able to play a much mated 2nd round 4th seed game against a 1st round 8th seed. The 2nd round 4th seed",
+      "mse": 0.063999,
+      "fve": 0.8943,
+      "gen_length": 60,
+      "unique_ratio": 0.617,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1491,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. While some schools had to cut back on 2009-10, 2010-11 was a 2009-10 100% ",
+      "mse": 0.02922,
+      "fve": 0.9518,
+      "gen_length": 60,
+      "unique_ratio": 0.467,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1801,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. While there have been some good practices and some worrisome issues, the 2010-11 7th 8th 9th 10th 11th ",
+      "mse": 0.028809,
+      "fve": 0.9524,
+      "gen_length": 60,
+      "unique_ratio": 0.567,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 88,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an end. The 2010-11 1st 7th 8th 9th 1",
+      "mse": 0.031378,
+      "fve": 0.9482,
+      "gen_length": 60,
+      "unique_ratio": 0.4,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1974,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an end. The 2010-11 7th 5th 8th 9th 1",
+      "mse": 0.03037,
+      "fve": 0.9499,
+      "gen_length": 60,
+      "unique_ratio": 0.4,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 48,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an end. The 2010-11 7th 8th 9th 10th ",
+      "mse": 0.03152,
+      "fve": 0.948,
+      "gen_length": 60,
+      "unique_ratio": 0.383,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1616,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. While the 2009-10 school year was a little bit different due to the fact tht 2010-11 was a 508 day school year,",
+      "mse": 0.031051,
+      "fve": 0.9487,
+      "gen_length": 60,
+      "unique_ratio": 0.533,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 466,
+      "generated_text": " Summary: The 2010 MidCampus Survey of Students surveyed 1,200 students from 100 schools. Of the 1,200 stu- 1 1 1 1 1 1 1 1 1 1 ",
+      "mse": 0.031837,
+      "fve": 0.9474,
+      "gen_length": 60,
+      "unique_ratio": 0.383,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 270,
+      "generated_text": " Summary: The 2018-19 school year will be the 10th in a series of 12 year-long school years. The 2018-19 school year will be the 10th in a series of 12 year-long school",
+      "mse": 0.03563,
+      "fve": 0.9412,
+      "gen_length": 60,
+      "unique_ratio": 0.383,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 107,
+      "generated_text": " Summary: The 2010-11 school year was a good one for the Vikings, as they were able to play a much mated 4th round draft pick in the first round. The 2010-11 4th round draft pick was a ",
+      "mse": 0.054742,
+      "fve": 0.9096,
+      "gen_length": 60,
+      "unique_ratio": 0.583,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1997,
+      "generated_text": " Summary: The 2010 MidCampus Survey is a survey of 200 college students from 10 different schools. The 2010 MidCampus Survei... Read More \u00bb 2010 MidCampus Survey: How Do You Feel About",
+      "mse": 0.024737,
+      "fve": 0.9592,
+      "gen_length": 60,
+      "unique_ratio": 0.55,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1613,
+      "generated_text": " Summary: The 2010 MidCamp is the largest in-house training and development event in the country. As a result of th e 2009 MidCamp, 2010 MidCamp will be a 10-day event. The 2010 Mid",
+      "mse": 0.038714,
+      "fve": 0.9361,
+      "gen_length": 60,
+      "unique_ratio": 0.517,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 906,
+      "generated_text": " Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "mse": 0.091901,
+      "fve": 0.8483,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1328,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. As you may have seen, the 2010-11 school year was a lot different tha 2009-10 school year. 2010-11",
+      "mse": 0.031921,
+      "fve": 0.9473,
+      "gen_length": 60,
+      "unique_ratio": 0.483,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 602,
+      "generated_text": " Summary: The 2010 MidCampus Survey is a survey of 200 college students from 10 different schools. The 2010 MidCampus Survei... Read More \u00bb 2010 MidCampus Survey: How Do You Feel About",
+      "mse": 0.025401,
+      "fve": 0.9581,
+      "gen_length": 60,
+      "unique_ratio": 0.55,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 246,
+      "generated_text": " Summary: The 2010 Mid Term Budget (MTB) of the Government of India (GoI) provides a detailed 2010 Budgetary Framework for the year 2011. The 2010 MTB 2011 20",
+      "mse": 0.035171,
+      "fve": 0.9419,
+      "gen_length": 60,
+      "unique_ratio": 0.483,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1396,
+      "generated_text": " Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "mse": 0.091099,
+      "fve": 0.8496,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1544,
+      "generated_text": " Summary: 100% of the votes were for the Democratic candidate.\nThe Democratic candidate won by 2,000 votes.\nThe Democratic candidate won by 2,000 votes.\nThe Democratic candidate won by 2,000 votes.\nThe Democratic candidate won by",
+      "mse": 0.049361,
+      "fve": 0.9185,
+      "gen_length": 60,
+      "unique_ratio": 0.317,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1748,
+      "generated_text": " Summary: The 2018-19 school year will be the 10th in a row that the school has had a 50% chance of 2017-18 being a 50% chance of 2018-19 being",
+      "mse": 0.030917,
+      "fve": 0.949,
+      "gen_length": 60,
+      "unique_ratio": 0.467,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 50,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an e. 2010-11 school year has come to an e. 2010-1",
+      "mse": 0.030256,
+      "fve": 0.95,
+      "gen_length": 60,
+      "unique_ratio": 0.333,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 590,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. While there have been some good practices and some worrisome issues, the 2010-11 school year has foiled many 2009-10 issues. The ",
+      "mse": 0.032129,
+      "fve": 0.947,
+      "gen_length": 60,
+      "unique_ratio": 0.567,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 937,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an end. The 2010-11 7th 8th 9th 10th ",
+      "mse": 0.031447,
+      "fve": 0.9481,
+      "gen_length": 60,
+      "unique_ratio": 0.383,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1112,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. While there have been some good practices and some worrisome issues, the 2010-11 school year has foiled many 2009-10 issues. The ",
+      "mse": 0.032476,
+      "fve": 0.9464,
+      "gen_length": 60,
+      "unique_ratio": 0.567,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1674,
+      "generated_text": " Summary: The 2010 presidential race between Republican nominee Ron DeSantis and Democratic nominee Tim Kaine has reached a critical stage. As the 2010 caucuses neared, DeSantis and Kaine have been making t0l 2010 r",
+      "mse": 0.035768,
+      "fve": 0.9409,
+      "gen_length": 60,
+      "unique_ratio": 0.683,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 260,
+      "generated_text": " Summary: The 2010-11 school year was a good one for the Vikings, as they were able to play a much mated 2nd round 4th seed game against a 1st round 8th seed. The 2nd round 4th seed",
+      "mse": 0.064925,
+      "fve": 0.8928,
+      "gen_length": 60,
+      "unique_ratio": 0.617,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1457,
+      "generated_text": " Summary: The 2010 Mid Term Budget (MTB) is the government\u2019s annual spending plan for the 2010-11 financial year. The 2010 MTB 2010 Mid Term Budget (MTB) 2010",
+      "mse": 0.030792,
+      "fve": 0.9492,
+      "gen_length": 60,
+      "unique_ratio": 0.45,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1903,
+      "generated_text": " Summary: The 2010 MidCampus Survey is a survey of 200 college students from 10 different schools. The 2010 MidCampus Survei... Read More \u00bbThe 2010 MidCampus Survey is a survey of ",
+      "mse": 0.022321,
+      "fve": 0.9631,
+      "gen_length": 60,
+      "unique_ratio": 0.483,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 689,
+      "generated_text": " Summary: The 2010-11 school year was the first in which the school district had a 50-50 split in the 2nd and 3rd graders. 50-50 is a 50-50 5th ",
+      "mse": 0.037758,
+      "fve": 0.9377,
+      "gen_length": 60,
+      "unique_ratio": 0.483,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 287,
+      "generated_text": " Summary: The 2010 Mid Term Budget (M. 2010) of India has been announced by the Government of India. The 2010 Mid Term Budget 2010 (M. 2010) 2010 Mid",
+      "mse": 0.035675,
+      "fve": 0.9411,
+      "gen_length": 60,
+      "unique_ratio": 0.367,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 655,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. While the 2009-10 school year was a little bit different due to the fact tht 2010-11 was a 508 day school year,",
+      "mse": 0.031372,
+      "fve": 0.9482,
+      "gen_length": 60,
+      "unique_ratio": 0.533,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1118,
+      "generated_text": " Summary: The 2010-11 school year was a good one for the Vikings, as they were able to play a much mated 2nd 4th 5th 6th 7th 8th 9th 10th 11th",
+      "mse": 0.045169,
+      "fve": 0.9254,
+      "gen_length": 60,
+      "unique_ratio": 0.583,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 927,
+      "generated_text": " Summary: The 2010 MidCampus Survey of Students surveyed 1,200 students from 100 schools. Of the 1,200 stu- 4 2010 MidCampus Survey of Students surveyed 1,200 students",
+      "mse": 0.02624,
+      "fve": 0.9567,
+      "gen_length": 60,
+      "unique_ratio": 0.4,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1314,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an e. 1. 2. 3. 4. 5. 6. 7. 8",
+      "mse": 0.024927,
+      "fve": 0.9588,
+      "gen_length": 60,
+      "unique_ratio": 0.433,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 854,
+      "generated_text": " Summary: The 2010 presidential race between Republican nominee Ron DeSantis and Democratic nominee Tim Kaine has reached a critical stage. As the 2010 caucuses neared, 2012 nashvilles and 2012 caucuses",
+      "mse": 0.040552,
+      "fve": 0.933,
+      "gen_length": 60,
+      "unique_ratio": 0.65,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 134,
+      "generated_text": " Summary: The 2010-11 school year was a good one for the Vikings, as they were able to play a much launchea 2010-11 school year was a good one for the Vikings, as they were able to play a much la",
+      "mse": 0.042486,
+      "fve": 0.9299,
+      "gen_length": 60,
+      "unique_ratio": 0.483,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1639,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an end. The 2010-11 1st 9th 10th 11th",
+      "mse": 0.031546,
+      "fve": 0.9479,
+      "gen_length": 60,
+      "unique_ratio": 0.367,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 274,
+      "generated_text": " Summary: The 2010 presidential race between Barack Obama and John McCain has come into focus again this week as the 2012 race between 2012 Republican nominee Ron DeSantis and 2012 Democratic nominee Ron DeKalb has come into focus as",
+      "mse": 0.055792,
+      "fve": 0.9079,
+      "gen_length": 60,
+      "unique_ratio": 0.55,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1724,
+      "generated_text": " Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "mse": 0.091675,
+      "fve": 0.8486,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1051,
+      "generated_text": " Summary: The 2010-11 school year was a good one for the Vikings, as they were able to play a 3-0 2nd 4th 5th 6th 7th 8th 9th 10th 11",
+      "mse": 0.053366,
+      "fve": 0.9119,
+      "gen_length": 60,
+      "unique_ratio": 0.55,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1055,
+      "generated_text": " Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "mse": 0.092571,
+      "fve": 0.8472,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 803,
+      "generated_text": " Summary: The 2010-11 school year was a good one for the Vikings, as they were able to play a much mated 4th round 2nd round game against a 5th round 2nd round team. The 2nd round game was a",
+      "mse": 0.067157,
+      "fve": 0.8891,
+      "gen_length": 60,
+      "unique_ratio": 0.6,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 869,
+      "generated_text": " super fun with the new features!\nI hope you have a great day!\nHappy new school year!\nHappy new school year!\nHappy new school year!\nHappy new school year!\nHappy new school year!\nHappy new school year!\nHappy new school year!\nHappy new school year!\nHappy new school year!\n",
+      "mse": 0.071109,
+      "fve": 0.8826,
+      "gen_length": 60,
+      "unique_ratio": 0.283,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1107,
+      "generated_text": " Summary: The 2010 MidCamp was a great success with 200 campers attending. The camp was a great 100% success 100% of the 200 campers atten 100% of the 200",
+      "mse": 0.031026,
+      "fve": 0.9488,
+      "gen_length": 60,
+      "unique_ratio": 0.383,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 924,
+      "generated_text": " Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "mse": 0.091792,
+      "fve": 0.8484,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 240,
+      "generated_text": " Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "mse": 0.09202,
+      "fve": 0.8481,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1304,
+      "generated_text": "\u7684\u7684\u7684\u7684\u7684\u7684/\u7684\u7684// Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1/2.2.2.2.2.2.2/3.3.",
+      "mse": 0.280549,
+      "fve": 0.5368,
+      "gen_length": 60,
+      "unique_ratio": 0.15,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1568,
+      "generated_text": " Summary: The 2018-19 school year has come to an end. While there have been some good practices and some worrisome issues, 2017-18 was a good year for 4th and 8th graders. 4th grad",
+      "mse": 0.026624,
+      "fve": 0.956,
+      "gen_length": 60,
+      "unique_ratio": 0.65,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 38,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an eponymous 2010-11 school year has come to an eponymous 2010",
+      "mse": 0.027905,
+      "fve": 0.9539,
+      "gen_length": 60,
+      "unique_ratio": 0.35,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1844,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an end. The 2010-11 10th 11th 12th 1",
+      "mse": 0.03088,
+      "fve": 0.949,
+      "gen_length": 60,
+      "unique_ratio": 0.333,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 439,
+      "generated_text": " Summary: The 2018-19 school year has been a busy one for the Eagles, as they have been on the road throug... 2017-18 School Year Summary: The 2017-18 school year has been a busy",
+      "mse": 0.023953,
+      "fve": 0.9605,
+      "gen_length": 60,
+      "unique_ratio": 0.55,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 472,
+      "generated_text": " Summary: The 2010 presidential race between Barack Obama and John McCain has been a unique one in Americana. 2010 was a unique 2010 in Americana in the sense that 2008 was a unique 2008 in Americ",
+      "mse": 0.041427,
+      "fve": 0.9316,
+      "gen_length": 60,
+      "unique_ratio": 0.483,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1236,
+      "generated_text": " Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "mse": 0.092823,
+      "fve": 0.8467,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1859,
+      "generated_text": " Summary: The 2010-11 school year has come to an end. While the 2009-10 school year was a little bit different throug... Read More \u00bbThe 2010-11 school year has come to an end.",
+      "mse": 0.02423,
+      "fve": 0.96,
+      "gen_length": 60,
+      "unique_ratio": 0.533,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 256,
+      "generated_text": " Summary: 1.1.1.1 is the hostname of the server.\n1.1.1.2 is the IP address of the server.\n1.1.1.3 is the hostname of the server.\n1.1.1.4 is the IP address of the server",
+      "mse": 0.065411,
+      "fve": 0.892,
+      "gen_length": 60,
+      "unique_ratio": 0.267,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 755,
+      "generated_text": " Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "mse": 0.091718,
+      "fve": 0.8486,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1743,
+      "generated_text": " Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "mse": 0.091023,
+      "fve": 0.8497,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1432,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an end. The 2010-11 7th 8th 9th 10th ",
+      "mse": 0.031366,
+      "fve": 0.9482,
+      "gen_length": 60,
+      "unique_ratio": 0.383,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1433,
+      "generated_text": " Summary: The 2010-11 school year has been a little different for most public schools in the country. Most schools had to cede 20% of their stupeficien t to 10th graders throug h a 10 month",
+      "mse": 0.030629,
+      "fve": 0.9494,
+      "gen_length": 60,
+      "unique_ratio": 0.75,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 564,
+      "generated_text": " Summary: The 2010 presidential race between Barack Obama and John McCain has come into focus again this week as the 2012 race between 2012 presidential nominee Donald Trump and 2016 Republican nominee Ron DeSantis has 2016 r",
+      "mse": 0.056025,
+      "fve": 0.9075,
+      "gen_length": 60,
+      "unique_ratio": 0.567,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 513,
+      "generated_text": " Summary: 1.1.1.1 is the hostname of the server.\n1.1.1.2 is the IP address of the server.\n1.1.1.3 is the hostname of the server.\n1.1.1.4 is the IP address of the server",
+      "mse": 0.066695,
+      "fve": 0.8899,
+      "gen_length": 60,
+      "unique_ratio": 0.267,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1054,
+      "generated_text": " Summary: The 2010-11 school year was a great one for the Vikings, as they were able to play a 3-0 manti-nent 2nd round play-off match against thier 2nd round play-off match agaist thier 2",
+      "mse": 0.043567,
+      "fve": 0.9281,
+      "gen_length": 60,
+      "unique_ratio": 0.65,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1777,
+      "generated_text": " Summary: The 2010 MidCamp is the largest in-house training and development event in the country. As a result of th e 2009 2010 MidCamp, 2010 MidCamp 2010 MidCamp 201",
+      "mse": 0.028564,
+      "fve": 0.9528,
+      "gen_length": 60,
+      "unique_ratio": 0.467,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1087,
+      "generated_text": " Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+      "mse": 0.092954,
+      "fve": 0.8465,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1542,
+      "generated_text": " Summary: The 2010 MidCamp is the largest in-house training and development event for the 2010 NFL Cervical Neck Neck Neck Neck Neck Neck Neck Neck Neck Neck Neck Neck Neck Neck Neck Neck Neck Neck Neck Neck Neck Neck Neck Neck Neck Neck Neck Neck Neck Neck",
+      "mse": 0.0796,
+      "fve": 0.8686,
+      "gen_length": 60,
+      "unique_ratio": 0.4,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 66,
+      "generated_text": " Summary: The 2010 MidCamp was a success and the 2011 MidCamp was a success as well. The 2012 MidCamp woulD haVe 2010 MidCamp 2011 MidCamp 2012",
+      "mse": 0.021383,
+      "fve": 0.9647,
+      "gen_length": 60,
+      "unique_ratio": 0.367,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1540,
+      "generated_text": " Summary: The 2010-11 school year was a great one for the Vikings, as they were able to play a lot of games i. e. 3-4-5, 4-5-6, 5-6-7, 6-7",
+      "mse": 0.036963,
+      "fve": 0.939,
+      "gen_length": 60,
+      "unique_ratio": 0.583,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 237,
+      "generated_text": " Summary: The 2010 Mid Term Budget (MTB) of the Government of India (GoI) 2010-11 (Himachal Pradesh, Uttarakhand, Jammu & Kashmir, Himachal Pradesh, Uttarakhand, Jammu &",
+      "mse": 0.029849,
+      "fve": 0.9507,
+      "gen_length": 60,
+      "unique_ratio": 0.583,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 292,
+      "generated_text": " Summary: The 2010 MidCamp is the largest in-house training and development event in the world. It\u2019s the 10thanniversary 2010 MidCamp has been a great success 2010 MidCamp has been a great success 201",
+      "mse": 0.025251,
+      "fve": 0.9583,
+      "gen_length": 60,
+      "unique_ratio": 0.5,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1427,
+      "generated_text": " Summary: The 2018-19 school year has come to an end, and the 2017-18 school year has just began. As we nee d 10th 11th 12th 13th 14th",
+      "mse": 0.02618,
+      "fve": 0.9568,
+      "gen_length": 60,
+      "unique_ratio": 0.533,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1636,
+      "generated_text": " Summary: The 2010 Mid Term Budget (MTB) of the Government of India (GoI) 2010-11 (Himachal Pradesh, Uttarakhand, Jammu & Kashmir, Himachal Pradesh, Uttarakhand, Jammu &",
+      "mse": 0.030387,
+      "fve": 0.9498,
+      "gen_length": 60,
+      "unique_ratio": 0.583,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1045,
+      "generated_text": " Summary: 2019-09-01 10:12:19.129999 16729 [main:main:main:main:main:main:main:main:main:main:main:main:",
+      "mse": 0.052354,
+      "fve": 0.9136,
+      "gen_length": 60,
+      "unique_ratio": 0.217,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 751,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an end. The 2010-11 school year has come to an end. The 2010",
+      "mse": 0.03332,
+      "fve": 0.945,
+      "gen_length": 60,
+      "unique_ratio": 0.317,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 707,
+      "generated_text": " Summary: The 2010-11 school year has come to an end, and the 2010-11 school year has come to an end. The 2010-11 1st 9th 10th 11th",
+      "mse": 0.032146,
+      "fve": 0.9469,
+      "gen_length": 60,
+      "unique_ratio": 0.367,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 817,
+      "generated_text": " Summary: The 2010-11 school year was a good one for the Vikings, as they were able to play for a 10-4 record. The 10-4 record was a good sign fo r the Vikings' ability to play for a 10",
+      "mse": 0.059934,
+      "fve": 0.901,
+      "gen_length": 60,
+      "unique_ratio": 0.533,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1246,
+      "generated_text": " Summary: The 2010 MidCampus Survey of Students in the School of Nursing (SGHS) was a 3-hr. survey takeri 2010 MidCampus Survey of Students in the School of Nursing (SGHS) was a 3-hr",
+      "mse": 0.035137,
+      "fve": 0.942,
+      "gen_length": 60,
+      "unique_ratio": 0.517,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1521,
+      "generated_text": " Summary: The 2010 MidCampus Survey of Students surveyed 1,000 students from 100 schools. Of the 1,000 stu- 4 100 schools, 87% were in the South 5 50",
+      "mse": 0.027397,
+      "fve": 0.9548,
+      "gen_length": 60,
+      "unique_ratio": 0.517,
+      "ws_ratio": 0.0
+    }
+  ]
+}

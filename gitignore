@@ -1,0 +1,23 @@
+# Model weights (too large for GitHub)
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# But keep eval results and training logs
+!results/**/*.json
+!results/**/*.png
+!**/training_log.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Data (too large)
+data/
+
+# Virtual environments
+venv/
+.env/

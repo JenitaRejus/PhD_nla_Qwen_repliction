@@ -1,0 +1,1815 @@
+{
+  "global_fve": 0.9935435126675409,
+  "avg_mse": 0.003023961605504155,
+  "global_var": 0.46836018562316895,
+  "num_samples": 200,
+  "fve_stats": {
+    "min": 0.9462,
+    "p25": 0.9927,
+    "median": 0.9935,
+    "p75": 0.9951,
+    "max": 0.9958
+  },
+  "examples": [
+    {
+      "source_idx": 1820,
+      "generated_text": " Summary, 1, 1, 10, 10000000000000000000000000000000000000000000000",
+      "mse": 0.003783,
+      "fve": 0.9919,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 524,
+      "generated_text": " Summary  1000 1000 1000 1000000000000 1000000000000000000000000000",
+      "mse": 0.002168,
+      "fve": 0.9954,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 333,
+      "generated_text": " Summary, 1000 1000 10000000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.003045,
+      "fve": 0.9935,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 506,
+      "generated_text": " = 100 100 100 100 100 1000 100 1000 1000 1000 1000 100000000",
+      "mse": 0.003662,
+      "fve": 0.9922,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1942,
+      "generated_text": " Summary  1000 100 100 10 100 100 100 100 100 100 100 100 100000000",
+      "mse": 0.002206,
+      "fve": 0.9953,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1974,
+      "generated_text": " Summary  1000000000000000 1 + 1 + 1 + 1 + 1 + 1000000000000000000000000",
+      "mse": 0.002389,
+      "fve": 0.9949,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1921,
+      "generated_text": " Summary  100 100 100 100 100 100 100 100 100 100 100 1000000000000",
+      "mse": 0.002115,
+      "fve": 0.9955,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 884,
+      "generated_text": " Summary, 100000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.003658,
+      "fve": 0.9922,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 995,
+      "generated_text": " Summary,, 10000000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.003595,
+      "fve": 0.9923,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 700,
+      "generated_text": " Summary, 1000 1000 10000 10000000 10000000000000000000000000000000",
+      "mse": 0.002747,
+      "fve": 0.9941,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1764,
+      "generated_text": " Summary,, 10000 1000 100 10000 1000 1000 1000 10000 10000000000000",
+      "mse": 0.003314,
+      "fve": 0.9929,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1225,
+      "generated_text": " Summary, 100000000000000000000000000000000000000000000000000000000",
+      "mse": 0.003092,
+      "fve": 0.9934,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1202,
+      "generated_text": " Summary  10000000000000 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ ",
+      "mse": 0.002212,
+      "fve": 0.9953,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1272,
+      "generated_text": " Summary,, 10000000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.003257,
+      "fve": 0.993,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1433,
+      "generated_text": " Summary,, 1000000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + ",
+      "mse": 0.003461,
+      "fve": 0.9926,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1129,
+      "generated_text": " Summary,, 1000 100 1000 100000000 10000000000000000000000000000000",
+      "mse": 0.002945,
+      "fve": 0.9937,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 168,
+      "generated_text": " Summary  1000 10000 1000 10000000 100000000  1000000 1000000000000",
+      "mse": 0.002765,
+      "fve": 0.9941,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 234,
+      "generated_text": " Summary   1000 1000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1",
+      "mse": 0.002113,
+      "fve": 0.9955,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1362,
+      "generated_text": " Summary, 10000 1000 100 100 1000 100 100 1000 1000 1000 1000000000",
+      "mse": 0.003213,
+      "fve": 0.9931,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 308,
+      "generated_text": " Summary,, 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.003688,
+      "fve": 0.9921,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1368,
+      "generated_text": " Summary  1000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1000000000000000000",
+      "mse": 0.002252,
+      "fve": 0.9952,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 319,
+      "generated_text": " Summary  10000 1000 1000 10000000 100000000000 1000000000000000000",
+      "mse": 0.002303,
+      "fve": 0.9951,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1561,
+      "generated_text": " Summary, 1000 1000 1000 1000 1000 1000 1000000 1000000 1000000 100",
+      "mse": 0.003258,
+      "fve": 0.993,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1516,
+      "generated_text": " Summary  1000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1000000000000000000",
+      "mse": 0.002317,
+      "fve": 0.9951,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 184,
+      "generated_text": " Summary  100000 100000 10000000000000 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1",
+      "mse": 0.001967,
+      "fve": 0.9958,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 437,
+      "generated_text": " Summary  1000000000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1",
+      "mse": 0.00257,
+      "fve": 0.9945,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1254,
+      "generated_text": " Summary   1000000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + ",
+      "mse": 0.002444,
+      "fve": 0.9948,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 641,
+      "generated_text": " Summary, 100000000000000000000000000000000000000000000000000000000",
+      "mse": 0.003763,
+      "fve": 0.992,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1640,
+      "generated_text": " Summary, 1000 100 100 100 100000 10000 100000 100000 100000 100000",
+      "mse": 0.003189,
+      "fve": 0.9932,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 7,
+      "generated_text": " Summary  100 100 100 100 1000000 1000 1000000 100000 1000000000000",
+      "mse": 0.002224,
+      "fve": 0.9953,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 61,
+      "generated_text": " = 1000000000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.004514,
+      "fve": 0.9904,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 973,
+      "generated_text": " Summary,      100000000000000000000000000000000000000000 100000000",
+      "mse": 0.003826,
+      "fve": 0.9918,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1845,
+      "generated_text": " Summary,, 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.003343,
+      "fve": 0.9929,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1570,
+      "generated_text": " Summary,, 100 100 100 100 1000000 1000 1000000 1000000 1000000 100",
+      "mse": 0.003092,
+      "fve": 0.9934,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1474,
+      "generated_text": " Summary  100 100 1000000000000000000000000000000000000000000000000",
+      "mse": 0.001979,
+      "fve": 0.9958,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1174,
+      "generated_text": " Summary   100 10000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1",
+      "mse": 0.00222,
+      "fve": 0.9953,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 694,
+      "generated_text": " Summary,  Summary, 100000000000000000000000000000000000000000000000000000",
+      "mse": 0.003153,
+      "fve": 0.9933,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 713,
+      "generated_text": "............................................................",
+      "mse": 0.025175,
+      "fve": 0.9462,
+      "gen_length": 60,
+      "unique_ratio": 0.017,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1385,
+      "generated_text": " Summary,, 10000000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.003603,
+      "fve": 0.9923,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 863,
+      "generated_text": " Summary  100 10000000000 1 + 1 + 1 + 1 + 1 + 10000000000000000000000000",
+      "mse": 0.002289,
+      "fve": 0.9951,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 307,
+      "generated_text": " Summary,, 100 10 10 1000 1000000 1000000 1000000 1000000 1000000 1",
+      "mse": 0.003257,
+      "fve": 0.993,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1877,
+      "generated_text": " Summary,, 1000 100 100 100 100 100 100 1000 1000 1000 100000000000",
+      "mse": 0.002943,
+      "fve": 0.9937,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1646,
+      "generated_text": " Summary  10000 1000 1000 100000 10000 100000 100000 10000000000000",
+      "mse": 0.002413,
+      "fve": 0.9948,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 498,
+      "generated_text": " Summary, 100000000000000000000000000000000000000000000000000000000",
+      "mse": 0.003587,
+      "fve": 0.9923,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 948,
+      "generated_text": " Summary,, 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.003965,
+      "fve": 0.9915,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 426,
+      "generated_text": " Summary  100000000 100000 1000000000000000000000000000000000000000",
+      "mse": 0.002306,
+      "fve": 0.9951,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 322,
+      "generated_text": " Summary  1000 100 100 100 1000000 10000 1000000 100000000000000000",
+      "mse": 0.002159,
+      "fve": 0.9954,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1108,
+      "generated_text": " Summary, 10000 1000 1000 1000000 10000 1000000 1000000 1000000 100",
+      "mse": 0.002921,
+      "fve": 0.9938,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 71,
+      "generated_text": " Summary  100000 10000 100 10000000000 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1",
+      "mse": 0.002078,
+      "fve": 0.9956,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1107,
+      "generated_text": " Summary,, 10000 1000 1000 1000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.003267,
+      "fve": 0.993,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 875,
+      "generated_text": " Summary  1000 1000 100000 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1",
+      "mse": 0.002075,
+      "fve": 0.9956,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1373,
+      "generated_text": " Summary, 100000000000000000000000000000000000000000000000000000000",
+      "mse": 0.002744,
+      "fve": 0.9941,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 371,
+      "generated_text": " Summary  10 1000000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1",
+      "mse": 0.002469,
+      "fve": 0.9947,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1360,
+      "generated_text": " Summary  1000 1000 100000 1000000000000000000000000000000000000000",
+      "mse": 0.001994,
+      "fve": 0.9957,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1669,
+      "generated_text": " Summary 1000000000000000 1 + 1000000000000000 1 + 1 + 1 + 1 + 1 + 1 + 100",
+      "mse": 0.003488,
+      "fve": 0.9926,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 215,
+      "generated_text": " Summary, 10000000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + ",
+      "mse": 0.003561,
+      "fve": 0.9924,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1576,
+      "generated_text": " Summary,, 10000 1000 1000 100000 10000 100000 100000 100000 100000",
+      "mse": 0.003252,
+      "fve": 0.9931,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1663,
+      "generated_text": " Summary, 1000000000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1",
+      "mse": 0.003556,
+      "fve": 0.9924,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 502,
+      "generated_text": " Summary  100000 1000000 100000000000000000000000000000000000000000",
+      "mse": 0.002103,
+      "fve": 0.9955,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 934,
+      "generated_text": " Summary, 10000000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + ",
+      "mse": 0.003546,
+      "fve": 0.9924,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1500,
+      "generated_text": " Summary,, 1000 100 100 10 100 100 100 100 100 100 100 100 10000000",
+      "mse": 0.003003,
+      "fve": 0.9936,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1295,
+      "generated_text": " Summary,, 1000 1000 1000 10000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.003126,
+      "fve": 0.9933,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 748,
+      "generated_text": "ors, 100 10000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.002883,
+      "fve": 0.9938,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1851,
+      "generated_text": " Summary,, 10000000000000000000000000000000000000000000000000000000",
+      "mse": 0.003399,
+      "fve": 0.9927,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1394,
+      "generated_text": " Summary, 100000000000000000000000000000000000000000000000000000000",
+      "mse": 0.002803,
+      "fve": 0.994,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 757,
+      "generated_text": " Summary  10000 1000 1000 100000000000 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1",
+      "mse": 0.00206,
+      "fve": 0.9956,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 389,
+      "generated_text": " Summary,, 10000000000000000000000000000000000000000000000000000000",
+      "mse": 0.003469,
+      "fve": 0.9926,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 663,
+      "generated_text": " Summary,     10000000000000000000000000000000000000000000000000000",
+      "mse": 0.002605,
+      "fve": 0.9944,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 485,
+      "generated_text": " Summary,, 1000000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + ",
+      "mse": 0.003143,
+      "fve": 0.9933,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 964,
+      "generated_text": " Summary, 10000000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + ",
+      "mse": 0.003029,
+      "fve": 0.9935,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 572,
+      "generated_text": " Summary, 1000000000000000000000000000000000, 1 + 100000000000000000",
+      "mse": 0.003632,
+      "fve": 0.9922,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1475,
+      "generated_text": " Summary,, 100 10 10 10 10 100 100 100 100 100 100 100 100000000000",
+      "mse": 0.002983,
+      "fve": 0.9936,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1243,
+      "generated_text": " Summary  10000 10000 1000 1000000000000000000000000000000000000000",
+      "mse": 0.002099,
+      "fve": 0.9955,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 30,
+      "generated_text": " Summary  100000 10000 100 1000000 10000000000000000000000000000000",
+      "mse": 0.002367,
+      "fve": 0.9949,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1896,
+      "generated_text": " Summary  1000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1000000000000000",
+      "mse": 0.002228,
+      "fve": 0.9952,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1481,
+      "generated_text": " Summary  1000000 1000000 10000000000000000000000000000000000000000",
+      "mse": 0.002252,
+      "fve": 0.9952,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1902,
+      "generated_text": " Summary  10000000000000 1 + 1 + 1 + 100000000000000000000000000000000",
+      "mse": 0.002245,
+      "fve": 0.9952,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 937,
+      "generated_text": " Summary 1000000000000000000000000000000000000000000000000000000000",
+      "mse": 0.003406,
+      "fve": 0.9927,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1962,
+      "generated_text": " Summary,, 10000000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.003637,
+      "fve": 0.9922,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1067,
+      "generated_text": " Summary  10000 10000 1000 10000000 100000000000000 100000000000000",
+      "mse": 0.002483,
+      "fve": 0.9947,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 3,
+      "generated_text": " Summary,  Summary, 100000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.003501,
+      "fve": 0.9925,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1136,
+      "generated_text": " Summary  100000000000000 1 + 1 + 1 + 10000000000000000000000000000000",
+      "mse": 0.002364,
+      "fve": 0.995,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 761,
+      "generated_text": " Summary,, 1000 100 100 100 100000 10000 100000 100000 100000 10000",
+      "mse": 0.003249,
+      "fve": 0.9931,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 304,
+      "generated_text": " Summary  1000 1000 1000 10000000 1000000000000 1000000000000000000",
+      "mse": 0.002617,
+      "fve": 0.9944,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 0,
+      "generated_text": " Summary, 100000000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.003414,
+      "fve": 0.9927,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1894,
+      "generated_text": " Summary, 10000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + ",
+      "mse": 0.003206,
+      "fve": 0.9932,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 79,
+      "generated_text": " Summary  1000000 100000 1000000000000 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1",
+      "mse": 0.002096,
+      "fve": 0.9955,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1779,
+      "generated_text": " Summary,, 10000000000000000000000000000000000000000000000000000000",
+      "mse": 0.003425,
+      "fve": 0.9927,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1280,
+      "generated_text": " = 1000 100 100 100 100 100 100 100 100 100 100 100 10000000 ",
+      "mse": 0.00315,
+      "fve": 0.9933,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 520,
+      "generated_text": " Summary,, 100 10 10 10 10 1000000 10000 100000000000000000000000 1",
+      "mse": 0.002838,
+      "fve": 0.9939,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1624,
+      "generated_text": " Summary  1000 1000 1000 10000000000000 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ ",
+      "mse": 0.001997,
+      "fve": 0.9957,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 193,
+      "generated_text": " Summary,, 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.003723,
+      "fve": 0.9921,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 965,
+      "generated_text": " Summary  1000 1000 1000 1000 1000 1000 1000000 1000000 10000000000",
+      "mse": 0.002168,
+      "fve": 0.9954,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 732,
+      "generated_text": " Summary  10000 1000 1000 1000000000000 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ ",
+      "mse": 0.00205,
+      "fve": 0.9956,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 474,
+      "generated_text": " Summary  10 10 1000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1",
+      "mse": 0.002325,
+      "fve": 0.995,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 535,
+      "generated_text": " Summary  100 100000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1",
+      "mse": 0.002357,
+      "fve": 0.995,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 318,
+      "generated_text": " Summary, 100000000000000000000000000000000000000000000000000000000",
+      "mse": 0.003283,
+      "fve": 0.993,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 607,
+      "generated_text": " Summary  1000000 1000000 10000000000000000000000000000000000000000",
+      "mse": 0.002119,
+      "fve": 0.9955,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 801,
+      "generated_text": " Summary,, 1000 1000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1",
+      "mse": 0.003318,
+      "fve": 0.9929,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1004,
+      "generated_text": " Summary,, 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.003317,
+      "fve": 0.9929,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 296,
+      "generated_text": " Summary, 100000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 10000000000000000000000000",
+      "mse": 0.003087,
+      "fve": 0.9934,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 635,
+      "generated_text": " Summary,           1000000000000000 1000000000000000 1000000000000",
+      "mse": 0.003992,
+      "fve": 0.9915,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1886,
+      "generated_text": " Summary  10000000 100000 10000000000000000000000000000000000000000",
+      "mse": 0.002145,
+      "fve": 0.9954,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 55,
+      "generated_text": "ascus,, 10000000000000000000000000000000000000000000000000000000",
+      "mse": 0.0034,
+      "fve": 0.9927,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 690,
+      "generated_text": " Summary  100000000000000000000000000000000000000000000000000000000",
+      "mse": 0.002165,
+      "fve": 0.9954,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 427,
+      "generated_text": " Summary,, 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.003532,
+      "fve": 0.9925,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1979,
+      "generated_text": " Summary  10000 1000 1000 1000000 10000 1000000 1000000 10000000000",
+      "mse": 0.002265,
+      "fve": 0.9952,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1752,
+      "generated_text": " Summary, 1000000000000000, 1 + 100000000000000000000000000000000000",
+      "mse": 0.004224,
+      "fve": 0.991,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 58,
+      "generated_text": " Summary  1000 1000 1000 100000000 1000000000000000 100000000000000",
+      "mse": 0.002505,
+      "fve": 0.9947,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 944,
+      "generated_text": " Summary  1000000000 10000 1000000000000000000000000000000000000000",
+      "mse": 0.002339,
+      "fve": 0.995,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 204,
+      "generated_text": " Summary  1000 1000 10000 10000000000000000000000000000000000000000",
+      "mse": 0.002141,
+      "fve": 0.9954,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1159,
+      "generated_text": " Summary,, 1000 1000 1000000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.003099,
+      "fve": 0.9934,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1470,
+      "generated_text": " Summary,, 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.003324,
+      "fve": 0.9929,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 243,
+      "generated_text": " Summary, 100000000000000000000000000000000000000000000000000000000",
+      "mse": 0.002959,
+      "fve": 0.9937,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 35,
+      "generated_text": " Summary, 10000 1000 1000 1000 1000 1000 1000 1000 1000 10000000000",
+      "mse": 0.002938,
+      "fve": 0.9937,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1787,
+      "generated_text": " Summary  10000 1000 1000 100000000000 100000000000 100000000000 1+",
+      "mse": 0.002411,
+      "fve": 0.9949,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1074,
+      "generated_text": " Summary  10000 1000 1000 100000000000 100000000000 100000000000 10",
+      "mse": 0.002345,
+      "fve": 0.995,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1978,
+      "generated_text": " Summary, 1000000 100000 100000 100000 100000 100000 100000 100000 ",
+      "mse": 0.00334,
+      "fve": 0.9929,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 980,
+      "generated_text": " Summary,  Summary, 100000000000000000000000000000000000000000000000000000",
+      "mse": 0.002914,
+      "fve": 0.9938,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 195,
+      "generated_text": " Summary  100000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 10000000",
+      "mse": 0.00237,
+      "fve": 0.9949,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 453,
+      "generated_text": " Summary,  1000000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + ",
+      "mse": 0.003458,
+      "fve": 0.9926,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 75,
+      "generated_text": " Summary, 10000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + ",
+      "mse": 0.003349,
+      "fve": 0.9928,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1259,
+      "generated_text": " Summary  1000 1000000000000000000000000000000000000000000000000000",
+      "mse": 0.002077,
+      "fve": 0.9956,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1426,
+      "generated_text": " Summary  10000 1000 1000 10000000 1000000000000000 100000000000000",
+      "mse": 0.00228,
+      "fve": 0.9951,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 230,
+      "generated_text": " Summary,, 100000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1",
+      "mse": 0.003296,
+      "fve": 0.993,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1182,
+      "generated_text": " Summary  1000 1000 1000 100000000 10000000000 1+ 1+ 1+ 1+ 1+ 1+ 1+",
+      "mse": 0.001994,
+      "fve": 0.9957,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 248,
+      "generated_text": " Summary  1000 1000 10000 1000000000000 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ ",
+      "mse": 0.002083,
+      "fve": 0.9956,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1256,
+      "generated_text": " Summary, 100000000000000000000000000000000000000000000000000000000",
+      "mse": 0.00327,
+      "fve": 0.993,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1769,
+      "generated_text": " Summary, 10000 1000 1000 10000000 10000000000000000000000000000000",
+      "mse": 0.003062,
+      "fve": 0.9935,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 397,
+      "generated_text": " Summary, 1000 100 100 100 100000 10000 100000 100000 100000 100000",
+      "mse": 0.003171,
+      "fve": 0.9932,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 431,
+      "generated_text": " Summary  1000 1000 1000 100000000 100000000000 1+ 1+ 1+ 1+ 1+ 1+ 1",
+      "mse": 0.002061,
+      "fve": 0.9956,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1675,
+      "generated_text": " Summary,          100000000000000000000000000000000000000000000000",
+      "mse": 0.002488,
+      "fve": 0.9947,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1330,
+      "generated_text": " Summary,,  1000000000000000000000000000000000000000000000000000000",
+      "mse": 0.003211,
+      "fve": 0.9931,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 556,
+      "generated_text": " Summary, 100000000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.003011,
+      "fve": 0.9936,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 764,
+      "generated_text": " Summary  100000000000000 1 + 1 + 1 + 1 + 1 + 10000000000000000000000000",
+      "mse": 0.002366,
+      "fve": 0.9949,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 803,
+      "generated_text": " Summary, 100000000000000 1000000000000000 1, 1+ 1000000000000000 1",
+      "mse": 0.00378,
+      "fve": 0.9919,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1963,
+      "generated_text": " Summary   10000000000000000000000000000000000000000000000000000000",
+      "mse": 0.001961,
+      "fve": 0.9958,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1263,
+      "generated_text": " Summary  100000 10000 100 1000000000 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+",
+      "mse": 0.002079,
+      "fve": 0.9956,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1503,
+      "generated_text": " Summary,, 1000 1000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1",
+      "mse": 0.003171,
+      "fve": 0.9932,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1022,
+      "generated_text": " Summary, 100000000000000000000000000000000000000000000000000000000",
+      "mse": 0.002963,
+      "fve": 0.9937,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1132,
+      "generated_text": " Summary   10000000 10000000000000 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+",
+      "mse": 0.002043,
+      "fve": 0.9956,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 461,
+      "generated_text": " Summary 10000000 1000000 1000000 1000000 1000000 1000000 1000000 1",
+      "mse": 0.002906,
+      "fve": 0.9938,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1446,
+      "generated_text": " Summary, 100000000000000000000000000000000000000000000000000000000",
+      "mse": 0.003144,
+      "fve": 0.9933,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 830,
+      "generated_text": " Summary  1000 1000000000000000000000000000000000000000000000000000",
+      "mse": 0.002057,
+      "fve": 0.9956,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1050,
+      "generated_text": " Summary,, 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.003522,
+      "fve": 0.9925,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1414,
+      "generated_text": " Summary,, Summary, 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + ",
+      "mse": 0.003378,
+      "fve": 0.9928,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 864,
+      "generated_text": " Summary,, 1000000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + ",
+      "mse": 0.003708,
+      "fve": 0.9921,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1795,
+      "generated_text": " Summary,, 1000 100 100 100 1000 100 100 1000 1000 1000 1000 1000 1",
+      "mse": 0.00315,
+      "fve": 0.9933,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1452,
+      "generated_text": " Summary, 10000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 100000000000000",
+      "mse": 0.003225,
+      "fve": 0.9931,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1134,
+      "generated_text": " Summary,, 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.00362,
+      "fve": 0.9923,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 233,
+      "generated_text": " Summary, 10000 1000 1000 100000000000 100000000000 1+ 1+ 1+ 1+ 1+ ",
+      "mse": 0.00305,
+      "fve": 0.9935,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 468,
+      "generated_text": " Summary  100 10 10 10 10 10 10000 100 100000 100000 10000000000000",
+      "mse": 0.002082,
+      "fve": 0.9956,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 188,
+      "generated_text": " Summary  100000000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 10000000000000000000",
+      "mse": 0.002283,
+      "fve": 0.9951,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1404,
+      "generated_text": " Summary,, 10000000000000000000000000000000000000000000000000000000",
+      "mse": 0.003156,
+      "fve": 0.9933,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 98,
+      "generated_text": " Summary,, 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.003464,
+      "fve": 0.9926,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1408,
+      "generated_text": " Summary  1000 100 100 10 100 100 100 100 100 100 100 100 100000000",
+      "mse": 0.002204,
+      "fve": 0.9953,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1650,
+      "generated_text": " Summary  10000 1000 1000 1000000 10000 1000000 1000000 1000000 100",
+      "mse": 0.002307,
+      "fve": 0.9951,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 631,
+      "generated_text": " Summary 1000000000000000000000000000000000000000000 10000000000000",
+      "mse": 0.003573,
+      "fve": 0.9924,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 895,
+      "generated_text": " Summary, 10000 1000 1000 10000 1000 1000 1000 10000000000000000000",
+      "mse": 0.002952,
+      "fve": 0.9937,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1008,
+      "generated_text": " Summary  100 10000000000 1 + 1 + 1 + 1 + 1 + 10000000000000000000000000",
+      "mse": 0.002259,
+      "fve": 0.9952,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1482,
+      "generated_text": " Summary, 10000000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 100000000000000000000",
+      "mse": 0.003225,
+      "fve": 0.9931,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1112,
+      "generated_text": " Summary  100000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 10000000000000",
+      "mse": 0.002268,
+      "fve": 0.9952,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 179,
+      "generated_text": " Summary, 1000 100 100 10 100 100 100 100 10  1000 1000 100000000 1",
+      "mse": 0.003235,
+      "fve": 0.9931,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1220,
+      "generated_text": " Summary, 10000 1000 1000 1000 1000 1000 1000 1000 1000 100000000 1",
+      "mse": 0.003122,
+      "fve": 0.9933,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1499,
+      "generated_text": " Summary  1000000 1000000 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+",
+      "mse": 0.002348,
+      "fve": 0.995,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 356,
+      "generated_text": " Summary             10000000000000 10000000000000 10000000000000 1",
+      "mse": 0.002911,
+      "fve": 0.9938,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1647,
+      "generated_text": " Summary,, Summary, 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + ",
+      "mse": 0.00358,
+      "fve": 0.9924,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1490,
+      "generated_text": " Summary, 100000000000000000000000000000000000000000000000000000000",
+      "mse": 0.003449,
+      "fve": 0.9926,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 804,
+      "generated_text": " Summary,, 1000 100 100 100 1000 100 100 1000 1000 1000000000000000",
+      "mse": 0.003007,
+      "fve": 0.9936,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1344,
+      "generated_text": " Summary,, 10000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.003542,
+      "fve": 0.9924,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 613,
+      "generated_text": " Summary,, 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.003626,
+      "fve": 0.9923,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1840,
+      "generated_text": " Summary  10000 1000 1000 10000000000000000000000000000000000000000",
+      "mse": 0.002071,
+      "fve": 0.9956,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 966,
+      "generated_text": " Summary  100 100 100 100 1000000 1000 10000000 1+ 1+ 1+ 1+ 1+ 1+ 1",
+      "mse": 0.001957,
+      "fve": 0.9958,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 29,
+      "generated_text": " Summary,, 10000000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.003567,
+      "fve": 0.9924,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1162,
+      "generated_text": " Summary   10000000000000 1 + 1 + 1 + 1 + 1 + 10000000000000000000000000",
+      "mse": 0.002126,
+      "fve": 0.9955,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 610,
+      "generated_text": " Summary  100 100 100 1000 1000000000000000000000000000000000000000",
+      "mse": 0.002067,
+      "fve": 0.9956,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1282,
+      "generated_text": " Summary  1000000000000000 1 + 1 + 1000000000000000 1 + 10000000000000",
+      "mse": 0.0028,
+      "fve": 0.994,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 660,
+      "generated_text": " Summary,, 10000000000000000000000000000000000000000000000000000000",
+      "mse": 0.003268,
+      "fve": 0.993,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 649,
+      "generated_text": " Summary,, 100000 10000 10000 10000 10000 10000 10000 10000 10000 1",
+      "mse": 0.003479,
+      "fve": 0.9926,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1981,
+      "generated_text": " Summary,, 1000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + ",
+      "mse": 0.003498,
+      "fve": 0.9925,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1681,
+      "generated_text": " Summary  10000000000000 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ 1+ ",
+      "mse": 0.002239,
+      "fve": 0.9952,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 391,
+      "generated_text": " Summary,, 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.003612,
+      "fve": 0.9923,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1082,
+      "generated_text": " Summary, , 1000000000000000000000000000000000000000000000000000000",
+      "mse": 0.003091,
+      "fve": 0.9934,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1796,
+      "generated_text": " Summary, 100 100 100 100 100 100 100 100 100 100 100 1000000000000",
+      "mse": 0.002994,
+      "fve": 0.9936,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1893,
+      "generated_text": " Summary, 1000 1000 1000 1000 1000 1000 1000 1000 1000 100000000000",
+      "mse": 0.002885,
+      "fve": 0.9938,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1545,
+      "generated_text": "ors,, 1000000000000 1000000000000 1000000000000 1000000000000 ",
+      "mse": 0.003286,
+      "fve": 0.993,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1744,
+      "generated_text": "ors, 1000000000000000 100000000000000 100000000000000 10000000",
+      "mse": 0.003804,
+      "fve": 0.9919,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1999,
+      "generated_text": " Summary, 100000000000000000000000000000000000000000000000000000000",
+      "mse": 0.004138,
+      "fve": 0.9912,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 392,
+      "generated_text": " Summary,, 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.00356,
+      "fve": 0.9924,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 706,
+      "generated_text": " Summary, 10000 1000 1000 10000000 10000000 10000000 10000000 10000",
+      "mse": 0.003238,
+      "fve": 0.9931,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 645,
+      "generated_text": " Summary,, 10000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.003554,
+      "fve": 0.9924,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1387,
+      "generated_text": "............................ Summary, 100000000000. 10000000000. 10",
+      "mse": 0.003303,
+      "fve": 0.9929,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 749,
+      "generated_text": " Summary, 1000 100 100 100 10000 10000 10000 10000 10000 10000 1000",
+      "mse": 0.003481,
+      "fve": 0.9926,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 739,
+      "generated_text": " Summary, 100000000000000000000000000000000000000000000000000000000",
+      "mse": 0.004213,
+      "fve": 0.991,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1589,
+      "generated_text": " Summary  10000 1000 1000 1000 1000 1000 100  1000 1000 1000 1000 1",
+      "mse": 0.002372,
+      "fve": 0.9949,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 413,
+      "generated_text": " Summary,, 100000 100000 100000 100000 100000 100000 100000 100000 ",
+      "mse": 0.003508,
+      "fve": 0.9925,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 297,
+      "generated_text": " Summary,,   100000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +",
+      "mse": 0.003353,
+      "fve": 0.9928,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 1708,
+      "generated_text": " Summary   1000 1000 1000000000000000000000000000000000000000000000",
+      "mse": 0.002015,
+      "fve": 0.9957,
+      "gen_length": 60,
+      "unique_ratio": 0.067,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 751,
+      "generated_text": " Summary, 10000000000000 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + ",
+      "mse": 0.003072,
+      "fve": 0.9934,
+      "gen_length": 60,
+      "unique_ratio": 0.1,
+      "ws_ratio": 0.0
+    },
+    {
+      "source_idx": 968,
+      "generated_text": " Summary, 1000000 100000 100000 100000 100000 100000 100000 100000 ",
+      "mse": 0.003258,
+      "fve": 0.993,
+      "gen_length": 60,
+      "unique_ratio": 0.083,
+      "ws_ratio": 0.0
+    }
+  ]
+}
