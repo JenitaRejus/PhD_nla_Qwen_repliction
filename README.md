@@ -125,11 +125,11 @@ In our implementation:
 -Same reconstruction reward and KL penalty as the paper
 -Three additional penalties added due to small model collapse:
 
-Whitespace penalty (-8.0): If more than 30% of the generated tokens are whitespace characters like tabs or newlines, a heavy penalty of -8.0 is applied. This was the most common failure mode - the AV would output almost nothing but blank space.
+**Whitespace penalty (-8.0):** If more than 30% of the generated tokens are whitespace characters like tabs or newlines, a heavy penalty of -8.0 is applied. This was the most common failure mode - the AV would output almost nothing but blank space.
 
-Repetition penalty (-4.0): If the AV keeps repeating the same token over and over - for example "the the the the..."  a penalty of -4.0 is applied. The penalty scales with how repetitive the output is, so partial repetition is also penalised, not just complete repetition.
+**Repetition penalty (-4.0):** If the AV keeps repeating the same token over and over - for example "the the the the..."  a penalty of -4.0 is applied. The penalty scales with how repetitive the output is, so partial repetition is also penalised, not just complete repetition.
 
-Length penalty (-5.0): If the output is shorter than 8 tokens, a penalty of -5.0 is applied. This forces the AV to generate a minimum amount of content before stopping.
+**Length penalty (-5.0):** If the output is shorter than 8 tokens, a penalty of -5.0 is applied. This forces the AV to generate a minimum amount of content before stopping.
 
 The AV is updated via REINFORCE: `∇J = E[∇log π(z|h) · R]`. 
 A KL divergence penalty toward the frozen SFT reference AV prevents reward hacking. This mirrors the paper's GRPO + KL setup; REINFORCE replaces GRPO to avoid group-sampling overhead, which is prohibitive on a single T4. The AR head is updated simultaneously via supervised MSE regression on the generated sequences.
@@ -145,15 +145,15 @@ A KL divergence penalty toward the frozen SFT reference AV prevents reward hacki
 
 Training halted at epoch 4 (patience = 2). Best checkpoint from epoch 3.
 
-Epoch 1 → 2 shows the biggest jump - Val FVE leaps from 0.35 to 0.97 in a single epoch. This is where the steganographic collapse occurred. The AV rapidly discovered that repeating numeric patterns give high reconstruction reward, and the AR co-adapted to decode them. Both models locked into this private encoding within a single training epoch.
+**Epoch 1 → 2** shows the biggest jump - Val FVE leaps from 0.35 to 0.97 in a single epoch. This is where the steganographic collapse occurred. The AV rapidly discovered that repeating numeric patterns give high reconstruction reward, and the AR co-adapted to decode them. Both models locked into this private encoding within a single training epoch.
 
-Epoch 2 → 3 shows a smaller improvement - FVE moves from 0.97 to 0.99. At this point the AV and AR are no longer learning anything fundamentally new. They are simply refining their shared numeric encoding to squeeze out marginal reconstruction gains.
+**Epoch 2 → 3** shows a smaller improvement - FVE moves from 0.97 to 0.99. At this point the AV and AR are no longer learning anything fundamentally new. They are simply refining their shared numeric encoding to squeeze out marginal reconstruction gains.
 
-Epoch 4 shows no improvement over epoch 3. Early stopping activates after two epochs without improvement (patience = 2) and training halts. The best checkpoint from epoch 3 is saved and used for all evaluation.
+**Epoch 4** shows no improvement over epoch 3. Early stopping activates after two epochs without improvement (patience = 2) and training halts. The best checkpoint from epoch 3 is saved and used for all evaluation.
 
 Most importantly- the average reward keeps rising from 5.47 to 7.36 across all four epochs, even after FVE plateaus at 0.99 from epoch 3 onwards. This is a classic sign of reward hacking. The AV is finding ways to increase its reward score without genuinely improving reconstruction quality - further evidence that the reconstruction objective alone, without strong regularisation, does not produce meaningful outputs.
 
-Stage 4: Evaluation (evaluate.py)
+## Stage 4: Evaluation (evaluate.py)
 
 Evaluation uses greedy (deterministic) generation rather than sampling, for reproducibility. For each of 200 held-out activations, the AV generates text, the AR reconstructs the activation, and per-sample FVE is computed. Three figures are produced automatically: FVE distribution histogram, training curve, and (for the layer sweep) FVE-by-layer plot.
 
@@ -164,6 +164,7 @@ I tested three layers — 8, 16, and 24 — representing early, middle, and fina
 **Layer Comparison**
 
 |Layer |   Position     |  Mean FVE | Degenerate samples |             Observation                      |
+|------|----------------|-----------|--------------------|----------------------------------------------|
 |  8   |   Early (1/3)  |  0.9666   |       0/200        |Widest FVE spread — most informative          |
 |  16  |   Middle (2/3) |  0.906    |       2/200        |Lowest FVE — hardest to reconstruct           |
 |  24  |   Final        |  0.994    |       0/200        |Highest FVE — but most uniform and trivial    |
@@ -181,25 +182,25 @@ even steganographically.
 
 Global FVE: 0.906 | global_var: 0.606 | avg MSE: 0.057
 
-|    Stat   |    Value   |
-|------------------------|
-|FVE min	    |   −0.284   |
-|FVE p25     |    0.894   |
-|FVE median  |	0.942    |
-|FVE p75     |	0.949    |
-|FVE max     |	0.965    |
+|    Stat     |    Value    |
+|-------------|-------------|
+|FVE min	    |   −0.284    |
+|FVE p25      |    0.894    |
+|FVE median   |	0.942       |
+|FVE p75      |	0.949       |
+|FVE max      |	0.965       |
 
-FVE Distribution Layer 16
+**FVE Distribution Layer 16**
 
 Layer 16 is where the results are most meaningful. Here is a selection of the actual generated outputs:
 
-"Summary: The 2018-19 school year has come to an end. While there have been some good practices and some worrisome issues, the 2017-18 school year has been a good one for many schools." — FVE 0.945
+``` "Summary: The 2018-19 school year has come to an end. While there have been some good practices and some worrisome issues, the 2017-18 school year has been a good one for many schools." — FVE 0.945 ``` 
 
-"Summary: The 2010 presidential race between Barack Obama and John McCain was the first time in US history that a 24-year-old 4-term president was challenged..." — FVE 0.914
+``` "Summary: The 2010 presidential race between Barack Obama and John McCain was the first time in US history that a 24-year-old 4-term president was challenged..." — FVE 0.914 ```
 
-"Summary: The 2010 Mid Term Budget of the Government of India 2010-11 (Himachal Pradesh, Uttarakhand, Jammu & Kashmir...)" — FVE 0.951
+``` "Summary: The 2010 Mid Term Budget of the Government of India 2010-11 (Himachal Pradesh, Uttarakhand, Jammu & Kashmir...)" — FVE 0.951 ```
 
-"Summary: The 2010 MidCamp is the largest in-house training and development event in the country. As a result of the 2009 MidCamp, 2010 MidCamp will be a 3-day event." — FVE 0.953
+``` "Summary: The 2010 MidCamp is the largest in-house training and development event in the country. As a result of the 2009 MidCamp, 2010 MidCamp will be a 3-day event." — FVE 0.953 ```
 
 These outputs share a recognisable template — educational/institutional summaries, often involving the year 2010 — but they differ in topic, entity, and detail across inputs. The model is not generating the same text every time. Something about the activation content at layer 16 is influencing what gets produced.
 
@@ -207,27 +208,31 @@ A critical caveat: these outputs are not semantically faithful descriptions of t
 
 The failure cases at layer 16 are also informative:
 
-"super fun fun fun fun fun fun fun..." — FVE 0.525
-"Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1..." — FVE 0.849
-"'S''''''''''''',,''''''''..." — FVE 0.504
+``` "super fun fun fun fun fun fun fun..." — FVE 0.525 ```
+
+``` "Summary: 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1..." — FVE 0.849 ```
+
+``` "'S''''''''''''',,''''''''..." — FVE 0.50 ```
 
 These represent roughly 10–15% of layer 16 outputs — cases where the repetition penalty was not strong enough and the model collapsed to a degenerate fallback. The visible lower tail in the FVE distribution (down to −0.28 in the worst case) corresponds to these samples. The negative FVE means the AR's reconstruction for those inputs was actively worse than predicting the dataset mean — a signal that the generated text encoded nothing useful.
 
-Training Curve Layer 16
+**Training Curve Layer 16**
 
 The training curve shows FVE reaching 0.982 at epoch 1 and 0.998 at epoch 2 before the session was interrupted. The reported evaluation FVE (0.906) is lower than the training validation FVE because evaluation uses greedy decoding, which is more conservative than the stochastic sampling used during validation. This gap between training FVE and evaluation FVE is expected and healthy — it means the model is not purely overfitting to the stochastic sampling regime.
 
 
-Layer 8: Early Layer — High Variance, Low Verbalisability
+**Layer 8:** Early Layer — High Variance, Low Verbalisability
 Global FVE: 0.967 | global_var: 0.684 | avg MSE: 0.023
 
-FVE Distribution Layer 8
+FVE Distribution Layer 8:
 
 Layer 8 achieves a higher FVE than layer 16 — but every single generated output looks like this:
 
-"0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0."
-"| = 2 +0. | = 2 +0. | = 2 +0. | = 2 +0."
-"0.0......................................................."
+```"0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0."```
+
+```"| = 2 +0. | = 2 +0. | = 2 +0. | = 2 +0."```
+
+```"0.0......................................................."```
 
 These are mathematically structured numeric patterns. The AV has collapsed to generating a consistent template that it has learned maps to a vector reliably close to the target. Yet FVE is 0.967. How?
 
@@ -237,16 +242,18 @@ The AV cannot produce meaningful text capturing these features, so it finds a fi
 
 The uniqueness ratios confirm this: virtually every layer-8 output has unique_ratio = 0.05–0.12. The repetition penalty fires, but the reconstruction reward at layer 8 (very low MSE) is large enough to overcome it.
 
-Layer 24: Final Layer — Low Variance, Trivial Reconstruction
+**Layer 24:** Final Layer — Low Variance, Trivial Reconstruction
 Global FVE: 0.994 | global_var: 0.468 | avg MSE: 0.003
 
-FVE Distribution Layer 24
+FVE Distribution Layer 24:
 
 Layer 24 produces the highest FVE — 0.994, nearly perfect — but with completely degenerate text:
 
-"Summary 1000 1000 1000 1000000000000000000000000..."
-"= 100 100 100 100 1000 100 1000 1000 1000..."
-"Summary, 1, 1, 10, 100000000000000000000000000..."
+```"Summary 1000 1000 1000 1000000000000000000000000..."``` 
+
+```"= 100 100 100 100 1000 100 1000 1000 1000..."```
+
+```"Summary, 1, 1, 10, 100000000000000000000000000..."```
 
 The FVE is not just high — it is also remarkably tight: the minimum is 0.946 and the maximum is 0.996, a range of only 0.05. This unimodal, narrow distribution is a completely different shape from layers 8 and 16.
 
@@ -256,12 +263,14 @@ When variance is this low, the FVE formula is easily inflated. Even an AR that a
 
 This finding mirrors a well-known result in representation learning and probing studies. Final-layer representations in causal language models are "collapsed" toward output space — they have been optimised to predict the next token, not to carry general semantic information that can be read back out. The information you lose by passing through the final few layers is exactly the semantic richness that makes verbalisations meaningful.
 
-Layer Comparison and the Verbalisability Sweet Spot
+**Layer Comparison and the Verbalisability Sweet Spot**
 
-Layer	global_var	FVE	Text quality	Interpretation
-8	0.684	0.967	Degenerate numeric	High variance but syntactic only — not verbalisable
-16	0.606	0.906	Genuine diverse text	Semantic representations — verbalisable
-24	0.468	0.994	Degenerate numeric	Low-variance cluster — trivially reconstructable
+
+|Layer  |	global_var |	 FVE	  |    Text quality        |	               Interpretation                        |
+|-------|------------|----------|------------------------|-------------------------------------------------------|
+|  8	  |   0.684    |	0.967	  |Degenerate numeric      |	High variance but syntactic only — not verbalisable  |
+|  16   |	  0.606	   |  0.906	  |Genuine diverse text	   |Semantic representations — verbalisable                |
+|  24	  |   0.468    |	0.994   |	Degenerate numeric	   |Low-variance cluster — trivially reconstructable       |
 
 The pattern is clear: middle layers are the sweet spot for natural language verbalisability. This aligns with extensive prior work in mechanistic interpretability (e.g., probing studies on BERT and GPT-2) that finds middle layers encode the richest semantic content. Early layers encode syntax and tokens; late layers encode output distributions. It is only in the middle that representations carry the kind of structured semantic content — topics, entities, discourse roles — that a language model can describe in words.
 
@@ -306,18 +315,20 @@ The AV has effectively learned a rudimentary floating-point notation. It encodes
 
 FVE = 0.9666 is higher than the paper's 0.6–0.8. This is not a better result ,it is an unconstrained result.
 
-| Factor | Effect on FVE |
-|--------|--------------|
-| Steganographic encoding | ↑ (maximises FVE without interpretability) |
-| L2-normalised unit-norm activations | ↑ (lower variance denominator) |
-| 60-token generation | ↑ (dense encoding beats prose at short length) |
-| Weak KL penalty (0.2) | ↑ (less constraint on output form) |
+| Factor                              |                 Effect on FVE                 |
+|-------------------------------------|-----------------------------------------------|
+| Steganographic encoding             | ↑ (maximises FVE without interpretability)    |
+| L2-normalised unit-norm activations | ↑ (lower variance denominator)                |
+| 60-token generation                 | ↑ (dense encoding beats prose at short length)|
+| Weak KL penalty (0.2)               | ↑ (less constraint on output form)            |
 
 The paper's 0.6–0.8 is *constrained* FVE — reconstruction quality while maintaining human-readable prose. That is the harder target. Reaching 0.97 without the prose constraint is not progress; it is a demonstration of what happens when the constraint is removed.
 
-Achieving constrained FVE comparable to the paper would require three changes: 
--A stronger KL penalty (coefficient 0.5 or higher)
--Claude-generated summaries for warm-start instead of raw text prefixes, and longer generation length (150+ tokens). 
+**Achieving constrained FVE comparable to the paper would require three changes:** 
+
+-A stronger KL penalty (coefficient 0.5 or higher).
+-Claude-generated summaries for warm-start instead of raw text prefixes.
+-longer generation length (150+ tokens). 
 
 These changes would anchor the AV toward readable prose during RL training and remove the conditions that made steganographic collapse the path of least resistance.
 
@@ -369,14 +380,14 @@ The logical next step is a rerun with kl_coeff = 1.0-2.0 and Claude or GPT-4-gen
 FVE would likely drop to the 0.5-0.7 range - but the outputs would be genuinely interpretable and meaningful, which is the actual goal of the NLA framework.
 
 
-Summary
--------------------------------------------------------------------------------------------------------------------------
-|Model	                  |  Qwen/Qwen2.5-0.5B                                                                            |
-|Layers tested	          |  8, 16, 24                                                                                     |
-|Best FVE (honest)	  |   Layer 16: 0.906 with genuine text                                                              |
-|Most interesting finding	  |  FVE inflation from mode collapse at final layers; middle layers are the verbalisability sweet spot   | 
-|Key limitation	          |  No semantic faithfulness evaluation; SFT uses synthetic rather than real summaries                |
---------------------------------------------------------------------------------------------------------------------------
+|      Summary                  |                                                                                                    |
+|-------------------------------|----------------------------------------------------------------------------------------------------|
+| Model	                        |  Qwen/Qwen2.5-0.5B                                                                                 |
+| Layers tested	                |  8, 16, 24                                                                                         |
+| Best FVE (honest)	            |   Layer 16: 0.906 with genuine text                                                                |
+| Most interesting finding	    |  FVE inflation from mode collapse at final layers; middle layers are the verbalisability sweet spot| 
+| Key limitation	              |  No semantic faithfulness evaluation; SFT uses synthetic rather than real summaries                |
+
 
 
 *Code: [`nla_pipeline.ipynb`](./nla_pipeline.ipynb) | Data: C4 validation (streaming) | Model: [Qwen/Qwen2.5-0.5B](https://huggingface.co/Qwen/Qwen2.5-0.5B) | Compute: Google Colab T4 (free tier)*
